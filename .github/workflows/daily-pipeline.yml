@@ -42,13 +42,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git rebase origin/main
           git add data/pipeline/disease-activity.json
           git add data/pipeline/county-threats.json
           git add data/pipeline/metadata.json
           git add public/downloads/
           if ! git diff --staged --quiet; then
             git commit -m "data: daily pipeline update $(date -u +%Y-%m-%d)"
-            git pull --rebase origin main
             git push
           else
             echo "No data changes — skipping commit and Vercel rebuild"
