@@ -3,10 +3,10 @@ name: Daily pipeline
 on:
   schedule:
     - cron: '0 7 * * *'   # 7 AM UTC every day (3 AM Eastern)
-  workflow_dispatch:       # lets you trigger manually from GitHub UI anytime
+  workflow_dispatch:       # manual trigger from GitHub UI
 
 permissions:
-  contents: write          # needed to commit and push the updated JSON files
+  contents: write
 
 jobs:
   update:
@@ -24,21 +24,27 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      # Step 1: fetch fresh wastewater data from CDC NWSS API
-      # Updates data/pipeline/disease-activity.json (Tier A: COVID, flu, RSV, norovirus)
-      # Exports public/downloads/wastewater_*.csv
       - name: Fetch wastewater data
         run: python pipeline/fetch_wastewater.py
 
-      # Step 2: recompute all threat levels using the updated Tier A data
-      # Applies seasonal month logic (tick diseases drop in November, etc.)
-      # Writes data/pipeline/county-threats.json → Vercel rebuilds map colors
       - name: Compute threat levels
         run: python pipeline/compute_levels.py
 
-      # Uses stefanzweifel/git-auto-commit-action which handles shallow clones,
-      # race conditions, and retries automatically — much more robust than
-      # manual git fetch/rebase/push.
+      - name: Diagnostics
+        run: |
+          echo "=== Workflow file tail (confirms which version is running) ==="
+          tail -20 .github/workflows/daily-pipeline.yml
+          echo "=== Local HEAD ==="
+          git log --oneline -3
+          echo "=== Remote HEAD ==="
+          git ls-remote origin HEAD
+          echo "=== Fetch latest ==="
+          git fetch origin main
+          echo "=== Commits we are behind ==="
+          git rev-list HEAD..origin/main --count
+          echo "=== Files changed by pipeline ==="
+          git status --short
+
       - name: Commit and push if data changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
