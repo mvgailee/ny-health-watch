@@ -1,36 +1,25 @@
-import type { ThreatLevel } from '@/data/counties';
+import type { ThreatLevel } from '@/lib/data-loader';
 
-interface Props {
-  level: ThreatLevel;
-  size?: 'sm' | 'md';
-}
-
-const cfg: Record<ThreatLevel, { label: string; bg: string; color: string; border: string }> = {
-  low:      { label: 'Clear',    bg: 'rgba(39,230,110,0.14)',  color: '#27e66e', border: 'rgba(39,230,110,0.35)'  },
-  watch:    { label: 'Low',      bg: 'rgba(255,222,0,0.13)',   color: '#ffde00', border: 'rgba(255,222,0,0.35)'   },
-  moderate: { label: 'Moderate', bg: 'rgba(255,140,0,0.13)',   color: '#ff8c00', border: 'rgba(255,140,0,0.35)'   },
-  high:     { label: 'Severe',   bg: 'rgba(255,65,65,0.14)',   color: '#ff4141', border: 'rgba(255,65,65,0.38)'   },
-  unknown:  { label: 'Unknown',  bg: 'rgba(138,171,196,0.1)',  color: '#8aabc4', border: 'rgba(138,171,196,0.2)'  },
+const BADGE_STYLES: Record<ThreatLevel, { bg: string; text: string; label: string }> = {
+  low:      { bg: '#0f2a1a', text: '#27e66e', label: 'Clear' },
+  watch:    { bg: '#2a2310', text: '#ffde00', label: 'Watch' },
+  moderate: { bg: '#2a1c10', text: '#ff8c00', label: 'Moderate' },
+  high:     { bg: '#2a1010', text: '#ff4141', label: 'Severe' },
 };
 
-export default function ThreatBadge({ level, size = 'sm' }: Props) {
-  const c = cfg[level] ?? cfg.unknown;
+export default function ThreatBadge({ level, size = 'sm' }: { level: ThreatLevel; size?: 'sm' | 'md' }) {
+  const s = BADGE_STYLES[level] ?? BADGE_STYLES.low;
+  const fs = size === 'md' ? '0.8rem' : '0.72rem';
+  const px = size === 'md' ? '0.55rem' : '0.4rem';
+  const py = size === 'md' ? '0.25rem' : '0.15rem';
   return (
-    <span
-      style={{
-        display: 'inline-block',
-        fontSize: size === 'sm' ? '11px' : '13px',
-        fontWeight: 500,
-        padding: size === 'sm' ? '2px 9px' : '4px 12px',
-        borderRadius: '999px',
-        background: c.bg,
-        color: c.color,
-        border: `1px solid ${c.border}`,
-        whiteSpace: 'nowrap',
-        letterSpacing: '0.02em',
-      }}
-    >
-      {c.label}
+    <span style={{
+      background: s.bg, color: s.text,
+      padding: `${py} ${px}`, borderRadius: 5,
+      fontSize: fs, fontWeight: 700, letterSpacing: '0.04em',
+      textTransform: 'uppercase', whiteSpace: 'nowrap',
+    }}>
+      {s.label}
     </span>
   );
 }

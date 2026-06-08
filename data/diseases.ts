@@ -1,4 +1,5 @@
-import type { ThreatLevel } from './counties';
+// Legacy file — kept for reference. New code uses data/disease-content.ts + lib/data-loader.ts
+type ThreatLevel = 'low' | 'watch' | 'moderate' | 'high' | 'unknown';
 
 export interface ActionItem {
   text: string;

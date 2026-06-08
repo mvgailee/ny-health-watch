@@ -1,0 +1,578 @@
+{
+  "36001": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36003": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36005": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "COVID-19",
+        "diseaseSlug": "covid-19",
+        "level": "moderate",
+        "note": "Wastewater signal elevated. Hospitalizations increasing.",
+        "actionItem": "Consider updated booster if not recently vaccinated"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36007": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36009": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36011": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36013": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36015": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36017": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36019": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36021": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36023": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36025": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36027": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36029": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "COVID-19",
+        "diseaseSlug": "covid-19",
+        "level": "moderate",
+        "note": "Wastewater signal elevated. Hospitalizations increasing.",
+        "actionItem": "Consider updated booster if not recently vaccinated"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36031": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36033": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36035": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36037": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36039": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36041": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36043": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36045": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36047": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "COVID-19",
+        "diseaseSlug": "covid-19",
+        "level": "moderate",
+        "note": "Wastewater signal elevated. Hospitalizations increasing.",
+        "actionItem": "Consider updated booster if not recently vaccinated"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36049": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36051": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36053": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36055": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "COVID-19",
+        "diseaseSlug": "covid-19",
+        "level": "moderate",
+        "note": "Wastewater signal elevated. Hospitalizations increasing.",
+        "actionItem": "Consider updated booster if not recently vaccinated"
+      },
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36057": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36059": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "COVID-19",
+        "diseaseSlug": "covid-19",
+        "level": "moderate",
+        "note": "Wastewater signal elevated. Hospitalizations increasing.",
+        "actionItem": "Consider updated booster if not recently vaccinated"
+      },
+      {
+        "diseaseName": "West Nile Virus",
+        "diseaseSlug": "west-nile-virus",
+        "level": "watch",
+        "note": "Mosquito season underway. First positive pools detected in Nassau and Suffolk.",
+        "actionItem": "Use mosquito repellent; avoid peak mosquito hours (dusk/dawn)"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36061": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "COVID-19",
+        "diseaseSlug": "covid-19",
+        "level": "moderate",
+        "note": "Wastewater signal elevated. Hospitalizations increasing.",
+        "actionItem": "Consider updated booster if not recently vaccinated"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36063": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36065": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36067": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "COVID-19",
+        "diseaseSlug": "covid-19",
+        "level": "moderate",
+        "note": "Wastewater signal elevated. Hospitalizations increasing.",
+        "actionItem": "Consider updated booster if not recently vaccinated"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36069": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36071": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36073": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36075": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36077": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36079": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36081": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "COVID-19",
+        "diseaseSlug": "covid-19",
+        "level": "moderate",
+        "note": "Wastewater signal elevated. Hospitalizations increasing.",
+        "actionItem": "Consider updated booster if not recently vaccinated"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36083": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36085": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "COVID-19",
+        "diseaseSlug": "covid-19",
+        "level": "moderate",
+        "note": "Wastewater signal elevated. Hospitalizations increasing.",
+        "actionItem": "Consider updated booster if not recently vaccinated"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36087": {
+    "threatLevel": "high",
+    "activeThreats": [
+      {
+        "diseaseName": "Measles",
+        "diseaseSlug": "measles",
+        "level": "high",
+        "note": "Active outbreak. 12 confirmed cases. All cases in unvaccinated individuals.",
+        "actionItem": "Verify MMR vaccination status immediately"
+      },
+      {
+        "diseaseName": "COVID-19",
+        "diseaseSlug": "covid-19",
+        "level": "moderate",
+        "note": "Wastewater signal elevated. Hospitalizations increasing.",
+        "actionItem": "Consider updated booster if not recently vaccinated"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36089": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36091": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36093": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36095": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36097": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36099": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36101": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36103": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "COVID-19",
+        "diseaseSlug": "covid-19",
+        "level": "moderate",
+        "note": "Wastewater signal elevated. Hospitalizations increasing.",
+        "actionItem": "Consider updated booster if not recently vaccinated"
+      },
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      },
+      {
+        "diseaseName": "West Nile Virus",
+        "diseaseSlug": "west-nile-virus",
+        "level": "watch",
+        "note": "Mosquito season underway. First positive pools detected in Nassau and Suffolk.",
+        "actionItem": "Use mosquito repellent; avoid peak mosquito hours (dusk/dawn)"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36105": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36107": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36109": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36111": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36113": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36115": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36117": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36119": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "COVID-19",
+        "diseaseSlug": "covid-19",
+        "level": "moderate",
+        "note": "Wastewater signal elevated. Hospitalizations increasing.",
+        "actionItem": "Consider updated booster if not recently vaccinated"
+      },
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "watch",
+        "note": "Peak tick season. High-risk forested and suburban areas.",
+        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+      }
+    ],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36121": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  },
+  "36123": {
+    "threatLevel": "low",
+    "activeThreats": [],
+    "lastUpdated": "Jun 7, 2026"
+  }
+}

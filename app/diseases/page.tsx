@@ -1,95 +1,171 @@
+'use client';
+
 import Link from 'next/link';
-import { diseases } from '@/data/diseases';
+import { useState, useMemo } from 'react';
+import { getAllDiseases, levelLabel, type ThreatLevel } from '@/lib/data-loader';
+import { CATEGORY_ORDER, type DiseaseCategory } from '@/data/disease-registry';
 import ThreatBadge from '@/components/ThreatBadge';
 
-const TREND_LABEL: Record<string, string> = {
-  rising: '↗ Rising',
-  stable: '→ Stable',
-  declining: '↘ Declining',
+const CATEGORIES: DiseaseCategory[] = [...CATEGORY_ORDER];
+
+const TIER_LABELS: Record<string, string> = {
+  A: 'Real-time',
+  B: 'Annual report',
+  C: 'Zero-tolerance',
 };
 
-const TREND_COLOR: Record<string, string> = {
-  rising: '#f5a623',
-  stable: '#8aabc4',
-  declining: '#22c98a',
-};
+const THREAT_ORDER: ThreatLevel[] = ['high', 'moderate', 'watch', 'low'];
 
-const SOURCE_LABEL: Record<string, string> = {
-  realtime: 'Real-time',
-  weekly: 'Weekly',
-  annual: 'Annual',
-};
+function sortScore(level: ThreatLevel) {
+  return THREAT_ORDER.indexOf(level);
+}
 
 export default function DiseasesPage() {
+  const [categoryFilter, setCategoryFilter] = useState<DiseaseCategory | 'All'>('All');
+  const [search, setSearch] = useState('');
+
+  const allDiseases = useMemo(() => getAllDiseases(), []);
+
+  const filtered = useMemo(() => {
+    let list = allDiseases;
+    if (categoryFilter !== 'All') {
+      list = list.filter(d => d.categories.includes(categoryFilter));
+    }
+    if (search.trim()) {
+      const q = search.toLowerCase();
+      list = list.filter(d => d.name.toLowerCase().includes(q));
+    }
+    return [...list].sort((a, b) => {
+      const lvlA = sortScore(a.activity.level);
+      const lvlB = sortScore(b.activity.level);
+      if (lvlA !== lvlB) return lvlA - lvlB;
+      return a.name.localeCompare(b.name);
+    });
+  }, [allDiseases, categoryFilter, search]);
+
+  const activeCount = filtered.filter(d => d.activity.level !== 'low').length;
+
   return (
-    <div style={{ maxWidth: '860px', margin: '0 auto', padding: '40px 24px', width: '100%' }}>
-      <h1 style={{ fontSize: '26px', fontWeight: 600, color: '#e2eef8', marginBottom: '8px' }}>
-        All tracked diseases
+    <div style={{ maxWidth: 900, margin: '0 auto', padding: '2rem 1.5rem' }}>
+      <h1 style={{ fontSize: '1.6rem', fontWeight: 700, marginBottom: '0.3rem', color: '#e8eaf0' }}>
+        All Tracked Diseases
       </h1>
-      <p style={{ fontSize: '14px', color: '#8aabc4', marginBottom: '32px', lineHeight: 1.6 }}>
-        Infectious diseases currently monitored in New York State. Activity levels and trends are sourced
-        from NYSDOH surveillance data. Click any disease for full details, current status, and recommended actions.
+      <p style={{ color: '#8a9bb0', marginBottom: '1.5rem', fontSize: '0.92rem' }}>
+        {allDiseases.length} diseases tracked across New York State.
+        {activeCount > 0 && (
+          <span style={{ color: '#f4b942', marginLeft: '0.5rem' }}>
+            {activeCount} currently elevated above baseline.
+          </span>
+        )}
       </p>
 
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-        {diseases.map(disease => (
-          <Link
-            key={disease.slug}
-            href={`/diseases/${disease.slug}`}
-            style={{ textDecoration: 'none' }}
-          >
-            <div style={{
-              background: '#111d2b',
-              border: '1px solid rgba(255,255,255,0.12)',
-              borderRadius: '12px',
-              padding: '18px 22px',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '16px',
-              transition: 'border-color 0.15s',
-            }}>
-              <div style={{ flex: 1, minWidth: 0 }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '5px', flexWrap: 'wrap' }}>
-                  <span style={{ fontSize: '15px', fontWeight: 500, color: '#e2eef8' }}>{disease.name}</span>
-                  {disease.categories.map(cat => (
-                    <span key={cat} style={{
-                      fontSize: '11px',
-                      padding: '1px 8px',
-                      borderRadius: '999px',
-                      background: 'rgba(255,255,255,0.06)',
-                      color: 'rgba(226,238,248,0.45)',
-                      border: '1px solid rgba(255,255,255,0.08)',
-                    }}>{cat}</span>
-                  ))}
-                </div>
-                <p style={{ fontSize: '13px', color: '#8aabc4', margin: 0 }}>{disease.shortDescription}</p>
-              </div>
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '8px', flexShrink: 0 }}>
-                <ThreatBadge level={disease.currentThreatLevel} size="sm" />
-                <span style={{ fontSize: '12px', color: TREND_COLOR[disease.nysTrend] }}>
-                  {TREND_LABEL[disease.nysTrend]}
-                </span>
-              </div>
-              <div style={{ flexShrink: 0, textAlign: 'right', minWidth: '72px' }}>
-                <span style={{
-                  fontSize: '11px',
-                  padding: '2px 8px',
-                  borderRadius: '4px',
-                  background: 'rgba(61,184,138,0.08)',
-                  color: 'rgba(61,184,138,0.7)',
-                  border: '1px solid rgba(61,184,138,0.15)',
-                }}>
-                  {SOURCE_LABEL[disease.dataSource]}
-                </span>
-              </div>
-            </div>
-          </Link>
-        ))}
+      {/* Filters */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '1.5rem' }}>
+        <input
+          type="text"
+          placeholder="Search diseases..."
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+          style={{
+            background: '#1a2235', border: '1px solid #2a3550', borderRadius: 8,
+            color: '#e8eaf0', padding: '0.5rem 0.75rem', fontSize: '0.9rem', outline: 'none',
+            maxWidth: 360,
+          }}
+        />
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.4rem' }}>
+          {(['All', ...CATEGORIES] as (DiseaseCategory | 'All')[]).map(cat => (
+            <button
+              key={cat}
+              onClick={() => setCategoryFilter(cat)}
+              style={{
+                padding: '0.25rem 0.65rem', borderRadius: 20, border: 'none',
+                fontSize: '0.78rem', cursor: 'pointer',
+                background: categoryFilter === cat ? '#27e66e' : '#1a2235',
+                color: categoryFilter === cat ? '#0a1628' : '#8a9bb0',
+                fontWeight: categoryFilter === cat ? 700 : 400,
+              }}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
       </div>
 
-      <p style={{ fontSize: '12px', color: 'rgba(226,238,248,0.3)', marginTop: '28px' }}>
-        Data freshness varies by disease. See individual disease pages for source details.
-        This site does not provide medical advice.
+      {/* Table */}
+      {filtered.length === 0 ? (
+        <p style={{ color: '#8a9bb0' }}>No diseases match your filter.</p>
+      ) : (
+        <div style={{ border: '1px solid #1e2f45', borderRadius: 10, overflow: 'hidden' }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+            <thead>
+              <tr style={{ background: '#0f1a2e', borderBottom: '1px solid #1e2f45' }}>
+                {['Disease', 'Category', 'NYS Status', 'Data', ''].map(h => (
+                  <th key={h} style={{ padding: '0.6rem 0.9rem', textAlign: 'left', fontSize: '0.75rem', color: '#8a9bb0', fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.05em' }}>{h}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {filtered.map((disease, idx) => (
+                <tr
+                  key={disease.slug}
+                  style={{
+                    background: idx % 2 === 0 ? '#0c1420' : '#0a111e',
+                    borderBottom: '1px solid #1a2840',
+                  }}
+                >
+                  <td style={{ padding: '0.7rem 0.9rem' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                      {disease.tier === 'C' && (
+                        <span title="Zero-tolerance: any case flagged" style={{ fontSize: '0.7rem', background: '#3d1a1a', color: '#f87171', padding: '0.1rem 0.4rem', borderRadius: 4, fontWeight: 600 }}>
+                          !
+                        </span>
+                      )}
+                      <span style={{ fontWeight: 600, color: '#c8d4e8', fontSize: '0.88rem' }}>
+                        {disease.name}
+                      </span>
+                    </div>
+                  </td>
+                  <td style={{ padding: '0.7rem 0.9rem' }}>
+                    <span style={{ fontSize: '0.78rem', color: '#6a7d99' }}>
+                      {disease.categories[0]}
+                    </span>
+                  </td>
+                  <td style={{ padding: '0.7rem 0.9rem' }}>
+                    <ThreatBadge level={disease.activity.level} />
+                  </td>
+                  <td style={{ padding: '0.7rem 0.9rem' }}>
+                    <span style={{
+                      fontSize: '0.7rem', color: '#4a6080',
+                      background: '#0f1a2e', padding: '0.15rem 0.4rem',
+                      borderRadius: 4, fontFamily: 'monospace',
+                    }}>
+                      Tier {disease.tier} · {TIER_LABELS[disease.tier]}
+                    </span>
+                  </td>
+                  <td style={{ padding: '0.7rem 0.9rem' }}>
+                    <Link
+                      href={`/diseases/${disease.slug}`}
+                      style={{
+                        fontSize: '0.78rem', color: '#8a9bb0',
+                        textDecoration: 'none',
+                        padding: '0.2rem 0.5rem',
+                        border: '1px solid #2a3a52',
+                        borderRadius: 5,
+                      }}
+                    >
+                      Details →
+                    </Link>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      <p style={{ marginTop: '1.5rem', color: '#4a6080', fontSize: '0.78rem' }}>
+        Disease data sourced from NYSDOH. Annual report data reflects 2024 case counts.
+        Tier A diseases reflect real-time or weekly surveillance. Tier C diseases are flagged on any confirmed case.
       </p>
     </div>
   );

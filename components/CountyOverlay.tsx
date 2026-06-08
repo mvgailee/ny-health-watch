@@ -3,60 +3,52 @@
 import { useEffect } from 'react';
 import Link from 'next/link';
 import type { County } from '@/data/counties';
+import type { CountyThreatData } from '@/lib/data-loader';
 import ThreatBadge from './ThreatBadge';
 
 interface Props {
   county: County;
+  threatData: CountyThreatData;
   onClose: () => void;
 }
 
 const PANEL_WIDTH = 420;
 
-export default function CountyOverlay({ county, onClose }: Props) {
+export default function CountyOverlay({ county, threatData, onClose }: Props) {
   useEffect(() => {
     const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
     window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
   }, [onClose]);
 
+  const { threatLevel, activeThreats, lastUpdated } = threatData;
+
   return (
     <div
       role="dialog"
       aria-modal="true"
       aria-label={`${county.name} County health information`}
-      style={{
-        position: 'fixed',
-        inset: 0,
-        zIndex: 50,
-      }}
+      style={{ position: 'fixed', inset: 0, zIndex: 50 }}
     >
       {/* Backdrop */}
       <div
         onClick={onClose}
         style={{
-          position: 'absolute',
-          inset: 0,
+          position: 'absolute', inset: 0,
           background: 'rgba(6,13,22,0.72)',
           backdropFilter: 'blur(1px)',
         }}
       />
 
       {/* Side panel */}
-      <div
-        style={{
-          position: 'absolute',
-          top: 0,
-          right: 0,
-          bottom: 0,
-          width: `${PANEL_WIDTH}px`,
-          maxWidth: '92vw',
-          background: '#0f1e2d',
-          borderLeft: '1px solid rgba(255,255,255,0.1)',
-          overflowY: 'auto',
-          display: 'flex',
-          flexDirection: 'column',
-        }}
-      >
+      <div style={{
+        position: 'absolute', top: 0, right: 0, bottom: 0,
+        width: `${PANEL_WIDTH}px`, maxWidth: '92vw',
+        background: '#0f1e2d',
+        borderLeft: '1px solid rgba(255,255,255,0.1)',
+        overflowY: 'auto',
+        display: 'flex', flexDirection: 'column',
+      }}>
         {/* Header */}
         <div style={{
           padding: '22px 24px 18px',
@@ -71,7 +63,7 @@ export default function CountyOverlay({ county, onClose }: Props) {
               <h1 style={{ fontSize: '22px', fontWeight: 600, color: '#e2eef8', marginBottom: '10px' }}>
                 {county.name} County
               </h1>
-              <ThreatBadge level={county.threatLevel} size="md" />
+              <ThreatBadge level={threatLevel} size="md" />
             </div>
             <button
               onClick={onClose}
@@ -79,17 +71,11 @@ export default function CountyOverlay({ county, onClose }: Props) {
               style={{
                 background: 'rgba(255,255,255,0.06)',
                 border: '1px solid rgba(255,255,255,0.1)',
-                borderRadius: '6px',
-                color: '#8aabc4',
-                cursor: 'pointer',
-                fontSize: '18px',
-                width: '32px',
-                height: '32px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                flexShrink: 0,
-                marginTop: '2px',
+                borderRadius: '6px', color: '#8aabc4',
+                cursor: 'pointer', fontSize: '18px',
+                width: '32px', height: '32px',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                flexShrink: 0, marginTop: '2px',
               }}
             >
               ×
@@ -100,22 +86,18 @@ export default function CountyOverlay({ county, onClose }: Props) {
         {/* Threats */}
         <div style={{ padding: '20px 24px', flex: 1 }}>
           <p style={{
-            fontSize: '11px',
-            fontWeight: 500,
-            letterSpacing: '0.07em',
-            textTransform: 'uppercase',
-            color: 'rgba(226,238,248,0.35)',
-            marginBottom: '14px',
+            fontSize: '11px', fontWeight: 500,
+            letterSpacing: '0.07em', textTransform: 'uppercase',
+            color: 'rgba(226,238,248,0.35)', marginBottom: '14px',
           }}>
             Active threats
           </p>
 
-          {county.activeThreats.length === 0 ? (
+          {activeThreats.length === 0 ? (
             <div style={{
               background: 'rgba(39,230,110,0.09)',
               border: '1px solid rgba(39,230,110,0.3)',
-              borderRadius: '10px',
-              padding: '18px 20px',
+              borderRadius: '10px', padding: '18px 20px',
             }}>
               <p style={{ color: '#27e66e', fontSize: '14px', fontWeight: 500, marginBottom: '4px' }}>
                 No elevated threats
@@ -126,16 +108,12 @@ export default function CountyOverlay({ county, onClose }: Props) {
             </div>
           ) : (
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-              {county.activeThreats.map((threat, i) => (
-                <div
-                  key={i}
-                  style={{
-                    background: '#152232',
-                    border: '1px solid rgba(255,255,255,0.08)',
-                    borderRadius: '10px',
-                    padding: '16px 18px',
-                  }}
-                >
+              {activeThreats.map((threat, i) => (
+                <div key={i} style={{
+                  background: '#152232',
+                  border: '1px solid rgba(255,255,255,0.08)',
+                  borderRadius: '10px', padding: '16px 18px',
+                }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
                     <span style={{ fontWeight: 500, color: '#e2eef8', fontSize: '15px' }}>
                       {threat.diseaseName}
@@ -148,9 +126,7 @@ export default function CountyOverlay({ county, onClose }: Props) {
                   <div style={{
                     background: 'rgba(39,230,110,0.09)',
                     border: '1px solid rgba(39,230,110,0.28)',
-                    borderRadius: '6px',
-                    padding: '8px 12px',
-                    marginBottom: '10px',
+                    borderRadius: '6px', padding: '8px 12px', marginBottom: '10px',
                   }}>
                     <span style={{ fontSize: '12px', color: '#27e66e' }}>
                       → {threat.actionItem}
@@ -174,18 +150,14 @@ export default function CountyOverlay({ county, onClose }: Props) {
           borderTop: '1px solid rgba(255,255,255,0.07)',
           flexShrink: 0,
         }}>
-          <p style={{ fontSize: '11px', color: 'rgba(226,238,248,0.3)', marginBottom: '12px' }}>
-            Data last updated: {county.lastUpdated}
-          </p>
+          {lastUpdated && (
+            <p style={{ fontSize: '11px', color: 'rgba(226,238,248,0.3)', marginBottom: '12px' }}>
+              Data last updated: {lastUpdated}
+            </p>
+          )}
           <Link
             href="/diseases"
-            style={{
-              fontSize: '13px',
-              color: '#27e66e',
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '4px',
-            }}
+            style={{ fontSize: '13px', color: '#27e66e', display: 'inline-flex', alignItems: 'center', gap: '4px' }}
           >
             View all tracked diseases →
           </Link>

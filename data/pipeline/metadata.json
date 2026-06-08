@@ -1,0 +1,24 @@
+{
+  "lastUpdated": "2026-06-07T12:00:00Z",
+  "sitewideNote": "Data last updated June 7, 2026",
+  "sources": {
+    "wastewater": {
+      "lastFetched": "2026-06-07",
+      "updateFrequency": "daily"
+    },
+    "respiratory-pdf": {
+      "lastFetched": "2026-06-06",
+      "updateFrequency": "weekly (Fridays)"
+    },
+    "arboviral-pdf": {
+      "lastFetched": "2026-06-06",
+      "updateFrequency": "weekly (seasonal Jun-Dec)"
+    },
+    "annual-report-pdf": {
+      "lastFetched": "2026-02-01",
+      "year": 2024,
+      "updateFrequency": "annual (February)"
+    }
+  },
+  "pipelineVersion": "1.0.0"
+}

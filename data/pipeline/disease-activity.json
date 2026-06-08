@@ -1,0 +1,449 @@
+{
+  "_meta": {
+    "lastUpdated": "2026-06-07T12:00:00Z",
+    "note": "Placeholder data. Pipeline will overwrite with real values.",
+    "tierA_source": "NYSDOH wastewater + weekly respiratory/arboviral reports",
+    "tierB_source": "NYSDOH Annual Communicable Disease Report 2024 vs 5yr baseline",
+    "tierC_source": "Manual \u2014 operator updated on NYSDOH outbreak declaration"
+  },
+  "covid-19": {
+    "level": "moderate",
+    "trend": "rising",
+    "note": "Wastewater signal elevated and rising across several NYS regions, particularly downstate. Dominant variant is JN.1 descendants.",
+    "wastewaterLevel": "moderate",
+    "dataSourceLabel": "NYSDOH wastewater surveillance, updated daily"
+  },
+  "influenza": {
+    "level": "low",
+    "trend": "declining",
+    "note": "Off-season. Flu activity is low. The 2025-26 season has ended. Updated vaccine available in late summer.",
+    "dataSourceLabel": "NYSDOH weekly respiratory surveillance"
+  },
+  "rsv": {
+    "level": "low",
+    "trend": "stable",
+    "note": "Off-season. RSV activity is low. Wastewater signal at baseline. Season typically begins in October.",
+    "dataSourceLabel": "NYSDOH wastewater + respiratory surveillance"
+  },
+  "norovirus": {
+    "level": "low",
+    "trend": "stable",
+    "note": "Wastewater signal at seasonal baseline. No current outbreaks reported. Norovirus peaks November through April.",
+    "dataSourceLabel": "NYSDOH wastewater surveillance"
+  },
+  "west-nile-virus": {
+    "level": "watch",
+    "trend": "rising",
+    "note": "Mosquito season underway. First WNV-positive mosquito pools detected in Nassau and Suffolk counties. Human case season peaks August-September.",
+    "dataSourceLabel": "NYSDOH arboviral surveillance, updated weekly (seasonal)"
+  },
+  "eastern-equine-encephalitis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "No EEE activity detected in NYS yet this season. NYSDOH monitoring mosquito pools statewide.",
+    "dataSourceLabel": "NYSDOH arboviral surveillance, updated weekly (seasonal)"
+  },
+  "lyme-disease": {
+    "level": "moderate",
+    "trend": "rising",
+    "note": "Peak tick season. Case reports running ahead of last year in the Hudson Valley, Long Island, and Capital Region.",
+    "annualCases2024": 21632,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "anaplasmosis": {
+    "level": "watch",
+    "trend": "rising",
+    "note": "Tick activity at peak. 2024 saw 2,025 statewide cases. Hudson Valley and Long Island highest burden.",
+    "annualCases2024": 2025,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "babesiosis": {
+    "level": "watch",
+    "trend": "stable",
+    "note": "748 cases statewide in 2024. Suffolk County consistently highest burden. Peak season June-August.",
+    "annualCases2024": 748,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "ehrlichiosis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "133 cases statewide in 2024. Rare but present during tick season.",
+    "annualCases2024": 133,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "rocky-mountain-spotted-fever": {
+    "level": "low",
+    "trend": "stable",
+    "note": "12 cases statewide in 2024. Rare in NYS; most cases travel-associated.",
+    "annualCases2024": 12,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "west-nile-fever": {
+    "level": "low",
+    "trend": "stable",
+    "note": "32 cases statewide in 2024. Related to West Nile Virus; milder presentation.",
+    "annualCases2024": 32,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "malaria": {
+    "level": "low",
+    "trend": "stable",
+    "note": "320 cases statewide in 2024, predominantly travel-associated. No local transmission.",
+    "annualCases2024": 320,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "dengue-fever": {
+    "level": "low",
+    "trend": "stable",
+    "note": "352 cases statewide in 2024, all travel-associated. No local mosquito transmission in NYS.",
+    "annualCases2024": 352,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "chikungunya": {
+    "level": "low",
+    "trend": "stable",
+    "note": "13 cases statewide in 2024, all travel-associated.",
+    "annualCases2024": 13,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "campylobacteriosis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "7,622 cases statewide in 2024, consistent with historical baseline. Most cases in summer months.",
+    "annualCases2024": 7622,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "salmonellosis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "3,974 cases statewide in 2024. No current cluster outbreaks reported.",
+    "annualCases2024": 3974,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "shigellosis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "2,938 cases statewide in 2024. Slightly elevated vs prior years; monitoring ongoing.",
+    "annualCases2024": 2938,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "e-coli-stec": {
+    "level": "low",
+    "trend": "stable",
+    "note": "1,775 cases statewide in 2024. No current outbreak clusters. Summer peak expected.",
+    "annualCases2024": 1775,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "cryptosporidiosis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "924 cases statewide in 2024. Peaks in summer with recreational water season.",
+    "annualCases2024": 924,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "giardiasis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "2,493 cases statewide in 2024. Year-round endemic disease.",
+    "annualCases2024": 2493,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "listeriosis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "127 cases statewide in 2024. No current multistate outbreak linked to NYS.",
+    "annualCases2024": 127,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "yersiniosis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "1,495 cases statewide in 2024.",
+    "annualCases2024": 1495,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "cyclosporiasis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "691 cases statewide in 2024. Peaks in summer; often linked to imported produce.",
+    "annualCases2024": 691,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "vibriosis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "408 cases statewide in 2024. Risk from raw shellfish and warm coastal water.",
+    "annualCases2024": 408,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "hemolytic-uremic-syndrome": {
+    "level": "low",
+    "trend": "stable",
+    "note": "8 cases statewide in 2024. Rare complication of STEC E. coli.",
+    "annualCases2024": 8,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "amebiasis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "213 cases statewide in 2024. Primarily travel-associated.",
+    "annualCases2024": 213,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "hepatitis-a": {
+    "level": "low",
+    "trend": "stable",
+    "note": "111 cases statewide in 2024. No current cluster outbreaks.",
+    "annualCases2024": 111,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "chlamydia": {
+    "level": "low",
+    "trend": "stable",
+    "note": "102,175 cases statewide in 2024. Most common reportable STI in NYS. Testing recommended for all sexually active adults under 25.",
+    "annualCases2024": 102175,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "gonorrhea": {
+    "level": "low",
+    "trend": "rising",
+    "note": "45,218 cases statewide in 2024. Rising trend in recent years. Increasing antibiotic resistance is a public health concern.",
+    "annualCases2024": 45218,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "syphilis-early": {
+    "level": "low",
+    "trend": "rising",
+    "note": "5,984 cases statewide in 2024. Continued rising trend. Congenital syphilis is a growing concern.",
+    "annualCases2024": 5984,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "syphilis-late": {
+    "level": "low",
+    "trend": "stable",
+    "note": "4,539 cases statewide in 2024.",
+    "annualCases2024": 4539,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "mpox": {
+    "level": "low",
+    "trend": "stable",
+    "note": "Transmission in NYS is low following the 2022 outbreak. JYNNEOS vaccine remains available for high-risk individuals.",
+    "dataSourceLabel": "NYSDOH + manual monitoring"
+  },
+  "hepatitis-b-acute": {
+    "level": "low",
+    "trend": "stable",
+    "note": "107 acute cases statewide in 2024.",
+    "annualCases2024": 107,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "hepatitis-b-chronic": {
+    "level": "low",
+    "trend": "stable",
+    "note": "9,757 chronic cases statewide in 2024. Vaccine-preventable.",
+    "annualCases2024": 9757,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "hepatitis-c-acute": {
+    "level": "low",
+    "trend": "stable",
+    "note": "623 acute cases statewide in 2024.",
+    "annualCases2024": 623,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "hepatitis-c-chronic": {
+    "level": "low",
+    "trend": "stable",
+    "note": "4,308 chronic cases statewide in 2024.",
+    "annualCases2024": 4308,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "tuberculosis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "1,089 cases statewide in 2024. NYS has among the highest TB rates in the US, concentrated in urban counties.",
+    "annualCases2024": 1089,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "legionellosis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "799 cases statewide in 2024. Peaks in summer. Major outbreak risk in cooling towers and hot water systems.",
+    "annualCases2024": 799,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "pertussis": {
+    "level": "low",
+    "trend": "rising",
+    "note": "2,875 cases statewide in 2024, above recent year averages. National uptick being monitored.",
+    "annualCases2024": 2875,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "mumps": {
+    "level": "low",
+    "trend": "stable",
+    "note": "35 cases statewide in 2024. Sporadic cases in unvaccinated clusters.",
+    "annualCases2024": 35,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "varicella": {
+    "level": "low",
+    "trend": "stable",
+    "note": "381 cases statewide in 2024. Predominantly in unvaccinated individuals.",
+    "annualCases2024": 381,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "strep-a-invasive": {
+    "level": "low",
+    "trend": "stable",
+    "note": "1,636 cases statewide in 2024.",
+    "annualCases2024": 1636,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "strep-b-invasive": {
+    "level": "low",
+    "trend": "stable",
+    "note": "970 cases statewide in 2024.",
+    "annualCases2024": 970,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "strep-pneumo-invasive": {
+    "level": "low",
+    "trend": "stable",
+    "note": "1,783 cases statewide in 2024.",
+    "annualCases2024": 1783,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "meningococcal": {
+    "level": "low",
+    "trend": "stable",
+    "note": "51 cases statewide in 2024. Rare; vaccine recommended for adolescents and college students.",
+    "annualCases2024": 51,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "haemophilus-influenzae": {
+    "level": "low",
+    "trend": "stable",
+    "note": "478 cases statewide in 2024.",
+    "annualCases2024": 478,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "meningitis-aseptic": {
+    "level": "low",
+    "trend": "stable",
+    "note": "179 cases statewide in 2024 (NYS excl NYC). Peaks in summer.",
+    "annualCases2024": 179,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "meningitis-bacterial": {
+    "level": "low",
+    "trend": "stable",
+    "note": "272 cases statewide in 2024.",
+    "annualCases2024": 272,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "acute-flaccid-myelitis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "4 cases statewide in 2024 (NYS excl NYC). Rare neurological condition.",
+    "annualCases2024": 4,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "q-fever": {
+    "level": "low",
+    "trend": "stable",
+    "note": "5 cases statewide in 2024. Rare; associated with livestock contact.",
+    "annualCases2024": 5,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "brucellosis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "3 cases statewide in 2024. Rare; associated with unpasteurized dairy or animal contact.",
+    "annualCases2024": 3,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "candida-auris": {
+    "level": "low",
+    "trend": "stable",
+    "note": "147 cases statewide in 2024 (NYS excl NYC). Drug-resistant fungal infection; primarily healthcare settings.",
+    "annualCases2024": 147,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "blastomycosis": {
+    "level": "low",
+    "trend": "stable",
+    "note": "6 cases statewide in 2024. Rare fungal infection; associated with soil/water exposure.",
+    "annualCases2024": 6,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "typhoid-fever": {
+    "level": "low",
+    "trend": "stable",
+    "note": "58 cases statewide in 2024. Primarily travel-associated.",
+    "annualCases2024": 58,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "neonatal-herpes": {
+    "level": "low",
+    "trend": "stable",
+    "note": "32 cases statewide in 2024.",
+    "annualCases2024": 32,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "toxic-shock-syndrome": {
+    "level": "low",
+    "trend": "stable",
+    "note": "35 cases statewide in 2024.",
+    "annualCases2024": 35,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "visa-staph": {
+    "level": "low",
+    "trend": "stable",
+    "note": "4 cases statewide in 2024 (NYS excl NYC). Drug-resistant staph; healthcare setting risk.",
+    "annualCases2024": 4,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  },
+  "measles": {
+    "level": "high",
+    "trend": "rising",
+    "note": "Active outbreak in Rockland County. 12 confirmed cases as of June 6, 2026. All cases in unvaccinated individuals. NYSDOH contact tracing ongoing.",
+    "dataSourceLabel": "NYSDOH outbreak investigation \u2014 manual update"
+  },
+  "botulism": {
+    "level": "low",
+    "trend": "stable",
+    "note": "5 cases statewide in 2024. No current outbreak.",
+    "annualCases2024": 5,
+    "dataSourceLabel": "NYSDOH annual report 2024 + manual monitoring"
+  },
+  "diphtheria": {
+    "level": "low",
+    "trend": "stable",
+    "note": "0 cases expected. No cases reported in NYS in 2024.",
+    "dataSourceLabel": "NYSDOH manual monitoring"
+  },
+  "tetanus": {
+    "level": "low",
+    "trend": "stable",
+    "note": "2 cases statewide in 2024.",
+    "annualCases2024": 2,
+    "dataSourceLabel": "NYSDOH annual report 2024 + manual monitoring"
+  },
+  "tularemia": {
+    "level": "low",
+    "trend": "stable",
+    "note": "6 cases statewide in 2024.",
+    "annualCases2024": 6,
+    "dataSourceLabel": "NYSDOH annual report 2024 + manual monitoring"
+  },
+  "listeria": {
+    "level": "low",
+    "trend": "stable",
+    "note": "127 cases statewide in 2024.",
+    "annualCases2024": 127,
+    "dataSourceLabel": "NYSDOH annual report 2024"
+  }
+}
