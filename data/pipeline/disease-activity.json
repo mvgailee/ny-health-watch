@@ -7,25 +7,31 @@
     "tierC_source": "Manual \u2014 operator updated on NYSDOH outbreak declaration"
   },
   "covid-19": {
-    "level": "watch",
-    "trend": "rising",
-    "note": "Statewide wastewater signal at 69th percentile (population-weighted). 39 of 61 monitored counties reporting above median. Signal is rising across monitored plants. (data as of 2025-09-07 \u2014 274 days old)",
+    "level": "low",
+    "trend": "stable",
+    "note": "Statewide wastewater signal at 3th percentile (population-weighted). 0 of 2 monitored counties reporting above median.",
     "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-06-08",
-    "wastewaterPercentile": 68.6,
-    "wastewaterCounties": 61,
+    "wastewaterPercentile": 2.8,
+    "wastewaterCounties": 2,
     "lastUpdated": "2026-06-08"
   },
   "influenza": {
     "level": "low",
-    "trend": "declining",
-    "note": "Off-season. Flu activity is low. The 2025-26 season has ended. Updated vaccine available in late summer.",
-    "dataSourceLabel": "NYSDOH weekly respiratory surveillance"
+    "trend": "stable",
+    "note": "Statewide wastewater signal at 2th percentile (population-weighted). 0 of 2 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-06-08",
+    "wastewaterPercentile": 2.0,
+    "wastewaterCounties": 2,
+    "lastUpdated": "2026-06-08"
   },
   "rsv": {
-    "level": "low",
+    "level": "moderate",
     "trend": "stable",
-    "note": "Off-season. RSV activity is low. Wastewater signal at baseline. Season typically begins in October.",
-    "dataSourceLabel": "NYSDOH wastewater + respiratory surveillance"
+    "note": "Statewide wastewater signal at 5th percentile (population-weighted). 0 of 2 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-06-08",
+    "wastewaterPercentile": 4.6,
+    "wastewaterCounties": 2,
+    "lastUpdated": "2026-06-08"
   },
   "norovirus": {
     "level": "low",

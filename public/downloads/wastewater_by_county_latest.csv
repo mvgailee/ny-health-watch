@@ -3,7 +3,8 @@ county_fips,county_name,pathogen_slug,pathogen_raw,sample_date,percentile,detect
 36001,Albany,covid-19,SARS-CoV-2,2025-09-07,71.0,100.0,,watch,stable,NWSS_ny_2172_Treatment plant_raw wastewater,109426,2026-06-08T15:09:04Z
 36001,Albany,covid-19,SARS-CoV-2,2025-09-07,53.4,100.0,,watch,stable,NWSS_ny_1855_Treatment plant_raw wastewater,31023,2026-06-08T15:09:04Z
 36001,Albany,covid-19,SARS-CoV-2,2025-09-07,,,,low,stable,NWSS_ny_1931_Treatment plant_raw wastewater,21281,2026-06-08T15:09:04Z
-36005,Bronx,covid-19,SARS-CoV-2,2025-09-07,,100.0,,high,stable,CDC_VERILY_ny_3029_Treatment plant_raw wastewater,781885,2026-06-08T15:09:04Z
+36005,Bronx,covid-19,SARS-CoV-2,2025-11-15,0.57,,,low,stable,ID:1251,781885,2026-06-08T15:51:58Z
+36005,Bronx,covid-19,SARS-CoV-2,2025-11-15,1.31,,,low,stable,ID:1388,1173448,2026-06-08T15:51:58Z
 36007,Broome,covid-19,SARS-CoV-2,2025-09-07,,,,low,stable,NWSS_ny_1400_Before treatment plant_483_raw wastewater,52501,2026-06-08T15:09:04Z
 36007,Broome,covid-19,SARS-CoV-2,2025-09-07,58.0,100.0,,watch,stable,NWSS_ny_2180_Treatment plant_raw wastewater,38726,2026-06-08T15:09:04Z
 36007,Broome,covid-19,SARS-CoV-2,2025-09-07,,,,low,stable,NWSS_ny_1400_Before treatment plant_484_raw wastewater,24672,2026-06-08T15:09:04Z
@@ -41,8 +42,14 @@ county_fips,county_name,pathogen_slug,pathogen_raw,sample_date,percentile,detect
 36043,Herkimer,covid-19,SARS-CoV-2,2025-09-07,55.0,50.0,-100.0,watch,declining,NWSS_ny_691_Treatment plant_raw wastewater,13924,2026-06-08T15:09:04Z
 36045,Jefferson,covid-19,SARS-CoV-2,2025-09-07,44.667,100.0,,low,stable,NWSS_ny_531_Treatment plant_raw wastewater,4077,2026-06-08T15:09:04Z
 36045,Jefferson,covid-19,SARS-CoV-2,2025-09-07,55.8,0.0,,watch,stable,NWSS_ny_2200_Treatment plant_raw wastewater,26270,2026-06-08T15:09:04Z
-36047,Kings,covid-19,SARS-CoV-2,2025-09-07,,100.0,,high,stable,CDC_VERILY_ny_3035_Treatment plant_raw wastewater,318262,2026-06-08T15:09:04Z
-36047,Kings,covid-19,SARS-CoV-2,2025-09-07,,100.0,,high,stable,CDC_VERILY_ny_3033_Treatment plant_raw wastewater,257556,2026-06-08T15:09:04Z
+36047,Kings,covid-19,SARS-CoV-2,2025-11-15,1.0,,,low,stable,ID:1308,318262,2026-06-08T15:51:58Z
+36047,Kings,covid-19,SARS-CoV-2,2025-11-15,1.0,,,low,stable,ID:1310,1227810,2026-06-08T15:51:58Z
+36047,Kings,covid-19,SARS-CoV-2,2025-11-15,0.33,,,low,stable,ID:1312,257556,2026-06-08T15:51:58Z
+36047,Kings,influenza,Influenza A virus,2025-11-15,1.0,,,low,stable,ID:1310,1227810,2026-06-08T15:55:52Z
+36047,Kings,influenza,Influenza A virus,2025-11-15,21.55,,,high,stable,ID:1312,257556,2026-06-08T15:55:52Z
+36047,Kings,rsv,RSV,2025-11-15,1.0,,,low,stable,ID:1308,318262,2026-06-08T15:51:58Z
+36047,Kings,rsv,RSV,2025-11-15,1.0,,,low,stable,ID:1310,1227810,2026-06-08T15:51:58Z
+36047,Kings,rsv,RSV,2025-11-15,1.0,,,low,stable,ID:1312,257556,2026-06-08T15:51:58Z
 "36047,36061,36081","Kings,New York,Queens",covid-19,SARS-CoV-2,2025-09-07,,100.0,,high,stable,CDC_VERILY_ny_3031_Treatment plant_raw wastewater,1227810,2026-06-08T15:09:04Z
 36049,Lewis,covid-19,SARS-CoV-2,2025-09-07,0.0,0.0,,low,stable,NWSS_ny_2187_Treatment plant_raw wastewater,3953,2026-06-08T15:09:04Z
 36051,Livingston,covid-19,SARS-CoV-2,2025-09-07,36.0,0.0,,low,stable,NWSS_ny_517_Treatment plant_raw wastewater,4730,2026-06-08T15:09:04Z
@@ -64,7 +71,9 @@ county_fips,county_name,pathogen_slug,pathogen_raw,sample_date,percentile,detect
 36059,Nassau,covid-19,SARS-CoV-2,2025-09-07,36.4,100.0,52418.0,low,rising,NWSS_ny_719_Treatment plant_raw wastewater,24041,2026-06-08T15:09:04Z
 36059,Nassau,covid-19,SARS-CoV-2,2025-09-07,37.0,100.0,-44.0,low,declining,NWSS_ny_2080_Treatment plant_raw wastewater,27494,2026-06-08T15:09:04Z
 36059,Nassau,covid-19,SARS-CoV-2,2025-09-07,6.5,100.0,,low,stable,NWSS_ny_2754_Treatment plant_raw wastewater,33939,2026-06-08T15:09:04Z
-36061,New York,covid-19,SARS-CoV-2,2025-09-07,,100.0,,high,stable,CDC_VERILY_ny_3032_Treatment plant_raw wastewater,649549,2026-06-08T15:09:04Z
+36061,New York,covid-19,SARS-CoV-2,2025-11-15,1.18,,,low,stable,ID:1337,649549,2026-06-08T15:51:58Z
+36061,New York,influenza,Influenza A virus,2025-11-15,1.0,,,low,stable,ID:1337,649549,2026-06-08T15:55:52Z
+36061,New York,rsv,RSV,2025-11-15,11.57,,,high,stable,ID:1337,649549,2026-06-08T15:51:58Z
 "36061,36005","Bronx,New York",covid-19,SARS-CoV-2,2025-09-07,,100.0,,high,stable,CDC_VERILY_ny_3034_Treatment plant_raw wastewater,1173448,2026-06-08T15:09:04Z
 36063,Niagara,covid-19,SARS-CoV-2,2025-09-07,30.333,0.0,,low,stable,NWSS_ny_1009_Treatment plant_raw wastewater,48196,2026-06-08T15:09:04Z
 36063,Niagara,covid-19,SARS-CoV-2,2025-09-07,9.0,0.0,,low,stable,NWSS_ny_2190_Treatment plant_raw wastewater,5632,2026-06-08T15:09:04Z
@@ -91,17 +100,22 @@ county_fips,county_name,pathogen_slug,pathogen_raw,sample_date,percentile,detect
 36071,Orange,covid-19,SARS-CoV-2,2025-09-07,87.0,100.0,1747.0,moderate,rising,NWSS_ny_524_Treatment plant_raw wastewater,36227,2026-06-08T15:09:04Z
 36073,Orleans,covid-19,SARS-CoV-2,2025-09-07,,,,low,stable,NWSS_ny_994_Treatment plant_raw wastewater,6278,2026-06-08T15:09:04Z
 36073,Orleans,covid-19,SARS-CoV-2,2025-09-07,,0.0,,high,stable,NWSS_ny_1008_Treatment plant_raw wastewater,6191,2026-06-08T15:09:04Z
-36075,Oswego,covid-19,SARS-CoV-2,2025-09-07,,0.0,,high,stable,NWSS_ny_2004_Treatment plant_raw wastewater,12117,2026-06-08T15:09:04Z
-36075,Oswego,covid-19,SARS-CoV-2,2025-09-07,35.2,50.0,-100.0,low,declining,NWSS_ny_2192_Treatment plant_raw wastewater,8849,2026-06-08T15:09:04Z
-36075,Oswego,covid-19,SARS-CoV-2,2025-09-07,88.2,100.0,87.0,moderate,rising,NWSS_ny_2201_Treatment plant_raw wastewater,14199,2026-06-08T15:09:04Z
-36075,Oswego,covid-19,SARS-CoV-2,2025-09-07,46.143,100.0,28.0,low,rising,WWS_ny_2601_Treatment plant_post grit removal,30000,2026-06-08T15:09:04Z
+36075,Oswego,covid-19,SARS-CoV-2,2026-05-30,1.24,,,low,stable,ID:1378,30000,2026-06-08T15:51:58Z
+36075,Oswego,influenza,Influenza A virus,2026-05-30,1.0,,,low,stable,ID:1378,30000,2026-06-08T15:55:52Z
+36075,Oswego,rsv,RSV,2026-05-30,1.0,,,low,stable,ID:1378,30000,2026-06-08T15:51:58Z
 36077,Otsego,covid-19,SARS-CoV-2,2025-09-07,,,,low,stable,NWSS_ny_300_Treatment plant_raw wastewater,19383,2026-06-08T15:09:04Z
 36079,Putnam,covid-19,SARS-CoV-2,2025-09-07,64.0,100.0,,watch,stable,NWSS_ny_738_Treatment plant_raw wastewater,4480,2026-06-08T15:09:04Z
-36081,Queens,covid-19,SARS-CoV-2,2025-09-07,,100.0,,high,stable,CDC_VERILY_ny_3030_Treatment plant_raw wastewater,735054,2026-06-08T15:09:04Z
-36081,Queens,covid-19,SARS-CoV-2,2025-09-07,,100.0,,high,stable,CDC_VERILY_ny_3036_Treatment plant_raw wastewater,894311,2026-06-08T15:09:04Z
+36081,Queens,covid-19,SARS-CoV-2,2025-11-15,1.58,,,low,stable,ID:1384,894311,2026-06-08T15:51:58Z
+36081,Queens,covid-19,SARS-CoV-2,2025-11-15,0.55,,,low,stable,ID:1385,735054,2026-06-08T15:51:58Z
+36081,Queens,influenza,Influenza A virus,2025-11-15,15.72,,,moderate,stable,ID:1384,894311,2026-06-08T15:55:52Z
+36081,Queens,influenza,Influenza A virus,2025-11-15,6.59,,,watch,stable,ID:1385,735054,2026-06-08T15:55:52Z
+36081,Queens,rsv,RSV,2025-11-15,1.0,,,low,stable,ID:1384,894311,2026-06-08T15:51:58Z
+36081,Queens,rsv,RSV,2025-11-15,1.0,,,low,stable,ID:1385,735054,2026-06-08T15:51:58Z
 36083,Rensselaer,covid-19,SARS-CoV-2,2025-09-07,28.0,0.0,,low,stable,NWSS_ny_2110_Treatment plant_raw wastewater,13720,2026-06-08T15:09:04Z
 36083,Rensselaer,covid-19,SARS-CoV-2,2025-09-07,40.0,100.0,340.0,low,rising,NWSS_ny_721_Treatment plant_raw wastewater,79699,2026-06-08T15:09:04Z
-36085,Richmond,covid-19,SARS-CoV-2,2025-09-07,,100.0,,high,stable,CDC_VERILY_ny_3041_Treatment plant_raw wastewater,224516,2026-06-08T15:09:04Z
+36085,Richmond,covid-19,SARS-CoV-2,2025-11-15,1.31,,,low,stable,ID:1392,224516,2026-06-08T15:51:58Z
+36085,Richmond,influenza,Influenza A virus,2025-11-15,26.06,,,high,stable,ID:1392,224516,2026-06-08T15:55:52Z
+36085,Richmond,rsv,RSV,2025-11-15,1.0,,,low,stable,ID:1392,224516,2026-06-08T15:51:58Z
 36087,Rockland,covid-19,SARS-CoV-2,2025-09-07,71.0,100.0,,watch,stable,NWSS_ny_1401_Treatment plant_raw wastewater,36527,2026-06-08T15:09:04Z
 36087,Rockland,covid-19,SARS-CoV-2,2025-09-07,78.2,100.0,,moderate,stable,NWSS_ny_838_Treatment plant_raw wastewater,207430,2026-06-08T15:09:04Z
 36087,Rockland,covid-19,SARS-CoV-2,2025-09-07,50.0,100.0,,watch,stable,NWSS_ny_1404_Treatment plant_raw wastewater,10890,2026-06-08T15:09:04Z
@@ -132,8 +146,9 @@ county_fips,county_name,pathogen_slug,pathogen_raw,sample_date,percentile,detect
 36105,Sullivan,covid-19,SARS-CoV-2,2025-09-07,58.333,0.0,,watch,stable,NWSS_ny_1098_Treatment plant_raw wastewater,4925,2026-06-08T15:09:04Z
 36105,Sullivan,covid-19,SARS-CoV-2,2025-09-07,,100.0,,high,stable,NWSS_ny_1504_Treatment plant_raw wastewater,6639,2026-06-08T15:09:04Z
 36107,Tioga,covid-19,SARS-CoV-2,2025-09-07,43.0,100.0,,low,stable,NWSS_ny_1149_Treatment plant_raw wastewater,3750,2026-06-08T15:09:04Z
-36109,Tompkins,covid-19,SARS-CoV-2,2025-09-07,37.4,100.0,28.0,low,rising,WWS_ny_2608_Treatment plant_post grit removal,90000,2026-06-08T15:09:04Z
-36109,Tompkins,covid-19,SARS-CoV-2,2025-09-07,89.8,100.0,57495.0,moderate,rising,NWSS_ny_1068_Treatment plant_raw wastewater,56967,2026-06-08T15:09:04Z
+36109,Tompkins,covid-19,SARS-CoV-2,2026-05-30,0.62,,,low,stable,ID:1431,90000,2026-06-08T15:51:58Z
+36109,Tompkins,influenza,Influenza A virus,2026-05-30,1.0,,,low,stable,ID:1431,90000,2026-06-08T15:55:52Z
+36109,Tompkins,rsv,RSV,2026-05-30,1.0,,,low,stable,ID:1431,90000,2026-06-08T15:51:58Z
 36111,Ulster,covid-19,SARS-CoV-2,2025-09-07,62.8,100.0,,watch,stable,NWSS_ny_776_Treatment plant_raw wastewater,26599,2026-06-08T15:09:04Z
 36113,Warren,covid-19,SARS-CoV-2,2025-09-07,32.2,100.0,,low,stable,NWSS_ny_869_Treatment plant_raw wastewater,23462,2026-06-08T15:09:04Z
 36115,Washington,covid-19,SARS-CoV-2,2025-09-07,,,,low,stable,NWSS_ny_986_Treatment plant_raw wastewater,12260,2026-06-08T15:09:04Z

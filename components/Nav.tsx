@@ -7,6 +7,7 @@ const links = [
   { href: '/', label: 'Map' },
   { href: '/diseases', label: 'All diseases' },
   { href: '/in-the-news', label: 'In the news' },
+  { href: '/data', label: 'Data' },
   { href: '/about', label: 'About' },
 ];
 
