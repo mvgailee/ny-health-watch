@@ -1,392 +1,1127 @@
 {
   "36001": {
-    "threatLevel": "watch",
+    "threatLevel": "moderate",
     "activeThreats": [
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
         "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36003": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36005": {
     "threatLevel": "moderate",
     "activeThreats": [
       {
-        "diseaseName": "COVID-19",
-        "diseaseSlug": "covid-19",
+        "diseaseName": "Cyclosporiasis",
+        "diseaseSlug": "cyclosporiasis",
         "level": "moderate",
-        "note": "Wastewater signal elevated. Hospitalizations increasing.",
-        "actionItem": "Consider updated booster if not recently vaccinated"
+        "note": "691 cases in 2024 \u2014 2.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36007": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36009": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36011": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36013": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36015": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36017": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36019": {
-    "threatLevel": "watch",
-    "activeThreats": [
-      {
-        "diseaseName": "Lyme Disease",
-        "diseaseSlug": "lyme-disease",
-        "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
-      }
-    ],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36021": {
-    "threatLevel": "watch",
-    "activeThreats": [
-      {
-        "diseaseName": "Lyme Disease",
-        "diseaseSlug": "lyme-disease",
-        "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
-      }
-    ],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36023": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36025": {
-    "threatLevel": "watch",
-    "activeThreats": [
-      {
-        "diseaseName": "Lyme Disease",
-        "diseaseSlug": "lyme-disease",
-        "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
-      }
-    ],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36027": {
-    "threatLevel": "watch",
-    "activeThreats": [
-      {
-        "diseaseName": "Lyme Disease",
-        "diseaseSlug": "lyme-disease",
-        "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
-      }
-    ],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36029": {
     "threatLevel": "moderate",
     "activeThreats": [
       {
-        "diseaseName": "COVID-19",
-        "diseaseSlug": "covid-19",
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
         "level": "moderate",
-        "note": "Wastewater signal elevated. Hospitalizations increasing.",
-        "actionItem": "Consider updated booster if not recently vaccinated"
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
+  },
+  "36009": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36011": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36013": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36015": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36017": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36019": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36021": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Cyclosporiasis",
+        "diseaseSlug": "cyclosporiasis",
+        "level": "moderate",
+        "note": "691 cases in 2024 \u2014 2.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36023": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36025": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36027": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Cyclosporiasis",
+        "diseaseSlug": "cyclosporiasis",
+        "level": "moderate",
+        "note": "691 cases in 2024 \u2014 2.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Candida Auris",
+        "diseaseSlug": "candida-auris",
+        "level": "watch",
+        "note": "147 cases in 2024 \u2014 1.",
+        "actionItem": "Healthcare facilities: follow CDC infection control protocols."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36029": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36031": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36033": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36035": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36037": {
     "threatLevel": "low",
     "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36039": {
-    "threatLevel": "watch",
+    "threatLevel": "moderate",
     "activeThreats": [
+      {
+        "diseaseName": "Cyclosporiasis",
+        "diseaseSlug": "cyclosporiasis",
+        "level": "moderate",
+        "note": "691 cases in 2024 \u2014 2.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
         "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36041": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36043": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36045": {
-    "threatLevel": "watch",
+    "threatLevel": "moderate",
     "activeThreats": [
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
         "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
+  },
+  "36043": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36045": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Cyclosporiasis",
+        "diseaseSlug": "cyclosporiasis",
+        "level": "moderate",
+        "note": "691 cases in 2024 \u2014 2.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36047": {
     "threatLevel": "moderate",
     "activeThreats": [
       {
-        "diseaseName": "COVID-19",
-        "diseaseSlug": "covid-19",
+        "diseaseName": "Cyclosporiasis",
+        "diseaseSlug": "cyclosporiasis",
         "level": "moderate",
-        "note": "Wastewater signal elevated. Hospitalizations increasing.",
-        "actionItem": "Consider updated booster if not recently vaccinated"
+        "note": "691 cases in 2024 \u2014 2.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36049": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36051": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36053": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36055": {
     "threatLevel": "moderate",
     "activeThreats": [
       {
-        "diseaseName": "COVID-19",
-        "diseaseSlug": "covid-19",
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
         "level": "moderate",
-        "note": "Wastewater signal elevated. Hospitalizations increasing.",
-        "actionItem": "Consider updated booster if not recently vaccinated"
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
       },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36051": {
+    "threatLevel": "moderate",
+    "activeThreats": [
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
-        "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
+  },
+  "36053": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36055": {
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36057": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36059": {
     "threatLevel": "moderate",
     "activeThreats": [
       {
-        "diseaseName": "COVID-19",
-        "diseaseSlug": "covid-19",
+        "diseaseName": "Cyclosporiasis",
+        "diseaseSlug": "cyclosporiasis",
         "level": "moderate",
-        "note": "Wastewater signal elevated. Hospitalizations increasing.",
-        "actionItem": "Consider updated booster if not recently vaccinated"
+        "note": "691 cases in 2024 \u2014 2.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
       },
       {
-        "diseaseName": "West Nile Virus",
-        "diseaseSlug": "west-nile-virus",
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Candida Auris",
+        "diseaseSlug": "candida-auris",
         "level": "watch",
-        "note": "Mosquito season underway. First positive pools detected in Nassau and Suffolk.",
-        "actionItem": "Use mosquito repellent; avoid peak mosquito hours (dusk/dawn)"
+        "note": "147 cases in 2024 \u2014 1.",
+        "actionItem": "Healthcare facilities: follow CDC infection control protocols."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      },
+      {
+        "diseaseName": "West Nile Fever",
+        "diseaseSlug": "west-nile-fever",
+        "level": "watch",
+        "note": "32 cases in 2024 \u2014 1.",
+        "actionItem": "Use mosquito repellent; eliminate standing water around your home."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36061": {
     "threatLevel": "moderate",
     "activeThreats": [
       {
-        "diseaseName": "COVID-19",
-        "diseaseSlug": "covid-19",
+        "diseaseName": "Cyclosporiasis",
+        "diseaseSlug": "cyclosporiasis",
         "level": "moderate",
-        "note": "Wastewater signal elevated. Hospitalizations increasing.",
-        "actionItem": "Consider updated booster if not recently vaccinated"
+        "note": "691 cases in 2024 \u2014 2.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36063": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36065": {
-    "threatLevel": "watch",
+    "threatLevel": "moderate",
     "activeThreats": [
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "West Nile Fever",
+        "diseaseSlug": "west-nile-fever",
         "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "note": "32 cases in 2024 \u2014 1.",
+        "actionItem": "Use mosquito repellent; eliminate standing water around your home."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
+  },
+  "36065": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36067": {
     "threatLevel": "moderate",
     "activeThreats": [
       {
-        "diseaseName": "COVID-19",
-        "diseaseSlug": "covid-19",
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
         "level": "moderate",
-        "note": "Wastewater signal elevated. Hospitalizations increasing.",
-        "actionItem": "Consider updated booster if not recently vaccinated"
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36069": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36071": {
-    "threatLevel": "watch",
+    "threatLevel": "moderate",
     "activeThreats": [
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
         "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
+  },
+  "36071": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36073": {
     "threatLevel": "low",
     "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36075": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36077": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36079": {
-    "threatLevel": "watch",
+    "threatLevel": "moderate",
     "activeThreats": [
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
         "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
+  },
+  "36077": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36079": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Cyclosporiasis",
+        "diseaseSlug": "cyclosporiasis",
+        "level": "moderate",
+        "note": "691 cases in 2024 \u2014 2.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36081": {
     "threatLevel": "moderate",
     "activeThreats": [
       {
-        "diseaseName": "COVID-19",
-        "diseaseSlug": "covid-19",
+        "diseaseName": "Cyclosporiasis",
+        "diseaseSlug": "cyclosporiasis",
         "level": "moderate",
-        "note": "Wastewater signal elevated. Hospitalizations increasing.",
-        "actionItem": "Consider updated booster if not recently vaccinated"
+        "note": "691 cases in 2024 \u2014 2.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36083": {
-    "threatLevel": "watch",
+    "threatLevel": "moderate",
     "activeThreats": [
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
         "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36085": {
     "threatLevel": "moderate",
     "activeThreats": [
       {
-        "diseaseName": "COVID-19",
-        "diseaseSlug": "covid-19",
+        "diseaseName": "Cyclosporiasis",
+        "diseaseSlug": "cyclosporiasis",
         "level": "moderate",
-        "note": "Wastewater signal elevated. Hospitalizations increasing.",
-        "actionItem": "Consider updated booster if not recently vaccinated"
+        "note": "691 cases in 2024 \u2014 2.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36087": {
     "threatLevel": "high",
@@ -395,184 +1130,552 @@
         "diseaseName": "Measles",
         "diseaseSlug": "measles",
         "level": "high",
-        "note": "Active outbreak. 12 confirmed cases. All cases in unvaccinated individuals.",
-        "actionItem": "Verify MMR vaccination status immediately"
+        "note": "Active outbreak in Rockland County.",
+        "actionItem": "Verify MMR vaccination status immediately."
       },
       {
-        "diseaseName": "COVID-19",
-        "diseaseSlug": "covid-19",
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
         "level": "moderate",
-        "note": "Wastewater signal elevated. Hospitalizations increasing.",
-        "actionItem": "Consider updated booster if not recently vaccinated"
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Candida Auris",
+        "diseaseSlug": "candida-auris",
+        "level": "watch",
+        "note": "147 cases in 2024 \u2014 1.",
+        "actionItem": "Healthcare facilities: follow CDC infection control protocols."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36089": {
-    "threatLevel": "watch",
+    "threatLevel": "moderate",
     "activeThreats": [
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
         "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36091": {
-    "threatLevel": "watch",
+    "threatLevel": "moderate",
     "activeThreats": [
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
         "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36093": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "threatLevel": "watch",
+    "activeThreats": [
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36095": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36097": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36099": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Candida Auris",
+        "diseaseSlug": "candida-auris",
+        "level": "watch",
+        "note": "147 cases in 2024 \u2014 1.",
+        "actionItem": "Healthcare facilities: follow CDC infection control protocols."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36101": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36103": {
     "threatLevel": "moderate",
     "activeThreats": [
       {
-        "diseaseName": "COVID-19",
-        "diseaseSlug": "covid-19",
+        "diseaseName": "Cyclosporiasis",
+        "diseaseSlug": "cyclosporiasis",
         "level": "moderate",
-        "note": "Wastewater signal elevated. Hospitalizations increasing.",
-        "actionItem": "Consider updated booster if not recently vaccinated"
+        "note": "691 cases in 2024 \u2014 2.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
       },
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
-        "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
       },
       {
-        "diseaseName": "West Nile Virus",
-        "diseaseSlug": "west-nile-virus",
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
         "level": "watch",
-        "note": "Mosquito season underway. First positive pools detected in Nassau and Suffolk.",
-        "actionItem": "Use mosquito repellent; avoid peak mosquito hours (dusk/dawn)"
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      },
+      {
+        "diseaseName": "West Nile Fever",
+        "diseaseSlug": "west-nile-fever",
+        "level": "watch",
+        "note": "32 cases in 2024 \u2014 1.",
+        "actionItem": "Use mosquito repellent; eliminate standing water around your home."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36105": {
-    "threatLevel": "watch",
+    "threatLevel": "moderate",
     "activeThreats": [
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
         "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Candida Auris",
+        "diseaseSlug": "candida-auris",
+        "level": "watch",
+        "note": "147 cases in 2024 \u2014 1.",
+        "actionItem": "Healthcare facilities: follow CDC infection control protocols."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36107": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36109": {
-    "threatLevel": "watch",
+    "threatLevel": "moderate",
     "activeThreats": [
+      {
+        "diseaseName": "Cyclosporiasis",
+        "diseaseSlug": "cyclosporiasis",
+        "level": "moderate",
+        "note": "691 cases in 2024 \u2014 2.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
         "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36111": {
-    "threatLevel": "watch",
+    "threatLevel": "moderate",
     "activeThreats": [
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
         "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   },
   "36113": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36115": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
+        "level": "watch",
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36117": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Lyme Disease",
+        "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
   },
   "36119": {
     "threatLevel": "moderate",
     "activeThreats": [
       {
-        "diseaseName": "COVID-19",
-        "diseaseSlug": "covid-19",
+        "diseaseName": "Cyclosporiasis",
+        "diseaseSlug": "cyclosporiasis",
         "level": "moderate",
-        "note": "Wastewater signal elevated. Hospitalizations increasing.",
-        "actionItem": "Consider updated booster if not recently vaccinated"
+        "note": "691 cases in 2024 \u2014 2.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
       },
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      },
+      {
+        "diseaseName": "Candida Auris",
+        "diseaseSlug": "candida-auris",
+        "level": "watch",
+        "note": "147 cases in 2024 \u2014 1.",
+        "actionItem": "Healthcare facilities: follow CDC infection control protocols."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
+      },
+      {
+        "diseaseName": "Syphilis Early",
+        "diseaseSlug": "syphilis-early",
+        "level": "watch",
+        "note": "5,984 cases in 2024 \u2014 1.",
+        "actionItem": "Get tested regularly if sexually active; notify partners if positive."
+      },
+      {
+        "diseaseName": "West Nile Fever",
+        "diseaseSlug": "west-nile-fever",
+        "level": "watch",
+        "note": "32 cases in 2024 \u2014 1.",
+        "actionItem": "Use mosquito repellent; eliminate standing water around your home."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36121": {
+    "threatLevel": "moderate",
+    "activeThreats": [
+      {
+        "diseaseName": "Pertussis",
+        "diseaseSlug": "pertussis",
+        "level": "moderate",
+        "note": "2,875 cases in 2024 \u2014 4.",
+        "actionItem": "Verify Tdap vaccination; isolate if cough develops."
+      }
+    ],
+    "lastUpdated": "2026-06-08"
+  },
+  "36123": {
+    "threatLevel": "moderate",
+    "activeThreats": [
       {
         "diseaseName": "Lyme Disease",
         "diseaseSlug": "lyme-disease",
+        "level": "moderate",
+        "note": "21,632 cases in 2024 \u2014 2.",
+        "actionItem": "Do a full-body tick check after every outdoor activity."
+      },
+      {
+        "diseaseName": "Anaplasmosis",
+        "diseaseSlug": "anaplasmosis",
         "level": "watch",
-        "note": "Peak tick season. High-risk forested and suburban areas.",
-        "actionItem": "Use EPA-approved repellent, do full-body tick checks"
+        "note": "2,025 cases in 2024 \u2014 1.",
+        "actionItem": "Use tick repellent; see a doctor for fever after a tick bite."
+      },
+      {
+        "diseaseName": "Dengue Fever",
+        "diseaseSlug": "dengue-fever",
+        "level": "watch",
+        "note": "352 cases in 2024 \u2014 1.",
+        "actionItem": "Stay informed. Follow NYSDOH guidance if you are at elevated risk."
       }
     ],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36121": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
-  },
-  "36123": {
-    "threatLevel": "low",
-    "activeThreats": [],
-    "lastUpdated": "Jun 7, 2026"
+    "lastUpdated": "2026-06-08"
   }
 }
