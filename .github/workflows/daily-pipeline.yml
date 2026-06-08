@@ -1,0 +1,54 @@
+name: Daily pipeline
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # 7 AM UTC every day (3 AM Eastern)
+  workflow_dispatch:       # lets you trigger manually from GitHub UI anytime
+
+permissions:
+  contents: write          # needed to commit and push the updated JSON files
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      # Step 1: fetch fresh wastewater data from CDC NWSS API
+      # Updates data/pipeline/disease-activity.json (Tier A: COVID, flu, RSV, norovirus)
+      # Exports public/downloads/wastewater_*.csv
+      - name: Fetch wastewater data
+        run: python pipeline/fetch_wastewater.py
+
+      # Step 2: recompute all threat levels using the updated Tier A data
+      # Applies seasonal month logic (tick diseases drop in November, etc.)
+      # Writes data/pipeline/county-threats.json → Vercel rebuilds map colors
+      - name: Compute threat levels
+        run: python pipeline/compute_levels.py
+
+      # Only commit if something actually changed — avoids empty commits
+      # that would trigger unnecessary Vercel rebuilds
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/pipeline/disease-activity.json
+          git add data/pipeline/county-threats.json
+          git add data/pipeline/metadata.json
+          git add public/downloads/
+          if ! git diff --staged --quiet; then
+            git commit -m "data: daily pipeline update $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No data changes — skipping commit and Vercel rebuild"
+          fi

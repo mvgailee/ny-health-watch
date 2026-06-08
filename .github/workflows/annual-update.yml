@@ -1,0 +1,49 @@
+name: Annual data update
+
+on:
+  workflow_dispatch:   # manual trigger only — run this when NYSDOH publishes the new annual report
+                       # typically February each year
+                       # TODO: when fetch_annual.py is built, add a schedule here
+
+permissions:
+  contents: write
+
+jobs:
+  annual-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests google-generativeai
+
+      # Fetches the new annual PDF, extracts county × disease table via Gemini,
+      # updates data/pipeline/annual-cases.json and data/pipeline/baselines.json
+      # TODO: uncomment when fetch_annual.py is built
+      # - name: Fetch annual report data
+      #   env:
+      #     GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      #   run: python pipeline/fetch_annual.py
+
+      # Recompute levels with the new annual data
+      - name: Recompute threat levels
+        run: python pipeline/compute_levels.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/pipeline/
+          if ! git diff --staged --quiet; then
+            git commit -m "data: annual report update $(date -u +%Y)"
+            git push
+          else
+            echo "No changes"
+          fi
