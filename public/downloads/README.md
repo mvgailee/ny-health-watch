@@ -1,4 +1,4 @@
-# NY Health Watch — Public Dataset
+# NY Health Watch â€” Public Dataset
 
 Data collected and cleaned by [nyhealthwatch.org](https://nyhealthwatch.org).
 Updated automatically from government sources.
@@ -15,8 +15,8 @@ Most recent wastewater surveillance reading per county per pathogen.
 | pathogen_slug | Disease key: covid-19, influenza, rsv, norovirus |
 | pathogen_raw | Original CDC NWSS pathogen string |
 | sample_date | End date of the sampling period |
-| percentile | 0–100; signal vs. this plant's own historical distribution |
-| detect_prop_15d | Fraction of samples positive over last 15 days (0–1) |
+| percentile | 0â€“100; signal vs. this plant's own historical distribution |
+| detect_prop_15d | Fraction of samples positive over last 15 days (0â€“1) |
 | trend_pct_15d | Signal % change over 15 days (+= rising) |
 | our_level | Derived: low / watch / moderate / high |
 | our_trend | Derived: rising / stable / declining |
@@ -25,7 +25,7 @@ Most recent wastewater surveillance reading per county per pathogen.
 | fetched_at | ISO timestamp when we retrieved this record |
 
 ### wastewater_history.csv
-Full wastewater time series — same fields plus `concentration` (copies/mL)
+Full wastewater time series â€” same fields plus `concentration` (copies/mL)
 and `plant_id` (CDC NWSS identifier).
 
 ### disease_cases_annual.csv
@@ -43,7 +43,7 @@ Annual communicable disease case counts by county, from NYSDOH annual reports.
 | data_source | annual-report-pdf / weekly-respiratory-pdf / etc. |
 
 ## Sources
-- Wastewater: CDC NWSS (data.cdc.gov), updated 2–3x/week
+- Wastewater: CDC NWSS (data.cdc.gov), updated 2â€“3x/week
 - Annual cases: NYSDOH Communicable Disease Annual Reports (health.ny.gov)
 - Weekly data: NYSDOH weekly surveillance PDFs
 
