@@ -56,41 +56,56 @@ METADATA_FILE       = PIPELINE_DIR / "metadata.json"
 
 # ── API ───────────────────────────────────────────────────────────────────────
 
-CDC_NWSS_URL          = "https://data.cdc.gov/resource/2ew6-ywp6.json"
+# atcp-73re: "CDC Wastewater Viral Activity Level for SARS-CoV-2, Influenza A and RSV"
+# Updated weekly — current as of 2026. Covers COVID, flu, RSV in a single dataset.
+# Sparse NYS coverage (~2 counties actively reporting via WastewaterSCAN).
+CDC_NWSS_URL = "https://data.cdc.gov/resource/atcp-73re.json"
+
+# Alternative: NYSDOH's own wastewater dataset — may have better NYS county coverage.
+# Run --introspect with this URL to compare schemas and coverage.
+# NYSDOH_URL = "https://health.data.ny.gov/resource/hdxs-icuh.json"
 CDC_APP_TOKEN         = os.environ.get("CDC_APP_TOKEN", "")
 PAGE_SIZE             = 1000
 DEFAULT_LOOKBACK_DAYS = 21  # 3 weeks on a normal run
 
 # ── NWSS field mapping ────────────────────────────────────────────────────────
-# Run --introspect to verify these against the live API schema.
+# atcp-73re schema (verified via --introspect 2026-06-08):
+#   counties_served, date_included_in_wval, date_updated, pathogen_target,
+#   population_served, site, site_wval, site_wval_category, source,
+#   state_territory, week_end
 
 NWSS_FIELDS = {
-    "plant_id":        "key_plot_id",
-    "plant_name":      "wwtp_name",          # absent in 2ew6-ywp6 — falls back to plant_id
-    "jurisdiction":    "wwtp_jurisdiction",   # state-level in 2ew6-ywp6; use county_fips instead
-    "county_fips":     "county_fips",         # DIRECT — present in 2ew6-ywp6, use this first
-    "county_name":     "county_names",        # DIRECT — county name string
-    "counties_served": "counties_served",
-    "date_start":      "date_start",
-    "date_end":        "date_end",
-    "pathogen":        "pcr_target",          # absent in COVID-only datasets — defaults to SARS-CoV-2
-    "concentration":   "pcr_target_avg_conc", # absent in 2ew6-ywp6 — stored as None
-    "percentile":      "percentile",
-    "detect_prop":     "detect_prop_15d",
-    "trend_pct":       "ptc_15d",             # absent in 2ew6-ywp6 — defaults to 'stable'
-    "reporting_state": "reporting_jurisdiction",
-    "first_sample":    "first_sample_date",
+    "plant_id":        "site",               # e.g. "ID:2377"
+    "plant_name":      "site",               # no separate name field — reuse site ID
+    "jurisdiction":    "state_territory",    # "New York" — use for API filter
+    "county_fips":     None,                 # not in this dataset — map from counties_served
+    "county_name":     "counties_served",    # county name string — map to FIPS
+    "date_start":      None,                 # not available
+    "date_end":        "week_end",           # end of reporting week
+    "pathogen":        "pathogen_target",    # "SARS-CoV-2", "Influenza A", "RSV"
+    "concentration":   None,                 # not available
+    "percentile":      "site_wval",          # WVAL score (0–10+ scale, not 0–100)
+    "detect_prop":     None,                 # not available
+    "trend_pct":       None,                 # not available
+    "reporting_state": "state_territory",
+    "first_sample":    "date_included_in_wval",
     "population":      "population_served",
+    # New fields specific to atcp-73re:
+    "wval_category":   "site_wval_category", # "Very Low"/"Low"/"Moderate"/"High"/"Very High"
 }
 
 PATHOGEN_SLUGS = {
-    "SARS-CoV-2":    "covid-19",
-    "Influenza A":   "influenza",
-    "Influenza B":   "influenza",
-    "RSV A":         "rsv",
-    "RSV B":         "rsv",
-    "Norovirus GI":  "norovirus",
-    "Norovirus GII": "norovirus",
+    # atcp-73re naming:
+    "SARS-CoV-2":          "covid-19",
+    "Influenza A virus":   "influenza",   # atcp-73re uses full name
+    "Influenza A":         "influenza",
+    "RSV":                 "rsv",
+    # Old 2ew6-ywp6 naming (kept for historical records in DB):
+    "Influenza B":         "influenza",
+    "RSV A":               "rsv",
+    "RSV B":               "rsv",
+    "Norovirus GI":        "norovirus",
+    "Norovirus GII":       "norovirus",
 }
 
 # ── County FIPS lookup ────────────────────────────────────────────────────────
@@ -153,27 +168,42 @@ def jurisdiction_to_fips(jurisdiction: str) -> list:
 # ── Level mapping ─────────────────────────────────────────────────────────────
 
 def percentile_to_level(pct):
+    """
+    For atcp-73re: pct is site_wval (WVAL score, 0-10+ scale).
+    For legacy 2ew6-ywp6 data in the DB: pct was a 0-100 percentile.
+    Values <= 10 treated as WVAL; values > 10 as percentile.
+    CDC WVAL: <=1.5 Very Low | 1.5-3 Low | 3-4.5 Moderate | 4.5-8 High | >8 Very High
+    """
     if pct is None:
         return "low"
-    if pct >= 90:
-        return "high"
-    if pct >= 75:
-        return "moderate"
-    if pct >= 50:
-        return "watch"
-    return "low"
+    if pct <= 10:
+        if pct > 8:   return "high"
+        if pct > 4.5: return "moderate"
+        if pct > 3:   return "watch"
+        return "low"
+    else:
+        # Legacy percentile scale
+        if pct >= 90: return "high"
+        if pct >= 75: return "moderate"
+        if pct >= 50: return "watch"
+        return "low"
+
+
+def wval_category_to_level(category):
+    """Maps CDC site_wval_category string directly to our 4-tier level."""
+    return {
+        "Very Low": "low", "Low": "low", "Minimal": "low",
+        "Moderate": "watch", "High": "moderate", "Very High": "high",
+    }.get(category or "", "low")
 
 
 def detect_prop_to_level(dp):
-    """detect_prop_15d is a 0-100 percentage in the CDC dataset, not a 0-1 fraction."""
+    """Fallback for legacy 2ew6-ywp6 data — detect_prop_15d is a 0-100 percentage."""
     if dp is None:
         return "low"
-    if dp >= 90:
-        return "high"
-    if dp >= 75:
-        return "moderate"
-    if dp >= 50:
-        return "watch"
+    if dp >= 90: return "high"
+    if dp >= 75: return "moderate"
+    if dp >= 50: return "watch"
     return "low"
 
 
@@ -273,7 +303,7 @@ def get_db(path):
 def fetch_nwss(lookback_days, app_token=""):
     cutoff = (datetime.date.today() - datetime.timedelta(days=lookback_days)).isoformat()
     headers = {"X-App-Token": app_token} if app_token else {}
-    where_clause = f"reporting_jurisdiction='New York' AND date_end >= '{cutoff}'"
+    where_clause = f"state_territory='New York' AND week_end >= '{cutoff}'"
     all_records = []
     offset = 0
     print(f"  Fetching NWSS data since {cutoff}...")
@@ -282,7 +312,7 @@ def fetch_nwss(lookback_days, app_token=""):
             "$where": where_clause,
             "$limit": PAGE_SIZE,
             "$offset": offset,
-            "$order": "date_end DESC",
+            "$order": "week_end DESC",
         }
         if app_token:
             params["$$app_token"] = app_token
@@ -302,12 +332,23 @@ def fetch_nwss(lookback_days, app_token=""):
 
 def introspect_schema(app_token=""):
     headers = {"X-App-Token": app_token} if app_token else {}
-    params = {"$where": "reporting_jurisdiction='New York'", "$limit": 1, "$order": "date_end DESC"}
-    if app_token:
-        params["$$app_token"] = app_token
-    print("Fetching one record to inspect NWSS schema...\n")
-    resp = requests.get(CDC_NWSS_URL, params=params, headers=headers, timeout=30)
-    resp.raise_for_status()
+    print("Fetching one record to inspect schema...\n")
+
+    # Try with NY filter first; if the dataset has different field names, fall back
+    # to a plain limit=1 so we can at least see what columns exist
+    for params in [
+        {"$where": "state_territory='New York'", "$limit": 1, "$order": "week_end DESC"},
+        {"$limit": 1},
+    ]:
+        if app_token:
+            params["$$app_token"] = app_token
+        resp = requests.get(CDC_NWSS_URL, params=params, headers=headers, timeout=30)
+        if resp.status_code == 200:
+            break
+        print(f"  Query failed ({resp.status_code}), retrying without filters...")
+    else:
+        resp.raise_for_status()
+
     records = resp.json()
     if not records:
         print("No records returned.")
@@ -324,59 +365,51 @@ def introspect_schema(app_token=""):
 
 def process_record(raw, fetched_at):
     f = NWSS_FIELDS
-    plant_id  = raw.get(f["plant_id"], "")
-    date_end  = raw.get(f["date_end"], "")
 
-    # Plant name: wwtp_name absent in some datasets — fall back to key_plot_id
+    plant_id   = raw.get(f["plant_id"], "")
     plant_name = raw.get(f["plant_name"]) or plant_id or "unknown"
+    # date_end maps to week_end in atcp-73re
+    date_end   = raw.get(f["date_end"]) or raw.get("week_end", "")
 
-    # Pathogen: pcr_target absent in single-pathogen datasets (e.g. 2ew6-ywp6 = COVID-only)
-    # Default to SARS-CoV-2 so records are not silently dropped
+    # pathogen_target in atcp-73re; default to SARS-CoV-2 if missing
     pathogen_raw  = raw.get(f["pathogen"]) or "SARS-CoV-2"
-    pathogen_slug = PATHOGEN_SLUGS.get(pathogen_raw, "covid-19")
+    pathogen_slug = PATHOGEN_SLUGS.get(pathogen_raw)
+    if not pathogen_slug:
+        return []   # skip unknown pathogens
 
     def safe_float(key):
+        if not key:
+            return None
         v = raw.get(key)
         try:
             return float(v) if v is not None else None
         except (ValueError, TypeError):
             return None
 
-    percentile    = safe_float(f["percentile"])
-    detect_prop   = safe_float(f["detect_prop"])
-    ptc_15d       = safe_float(f["trend_pct"])   # None in 2ew6-ywp6 — trend_label handles it
-    concentration = safe_float(f["concentration"])
-    population    = safe_float(f["population"])
+    # site_wval stored in percentile column; 999 = CDC sentinel for "no data"
+    wval       = safe_float(f["percentile"])
+    population = safe_float(f["population"])
 
-    # CDC uses 999 as a sentinel meaning "insufficient data to calculate percentile"
-    if percentile is not None and percentile >= 999:
-        percentile = None
+    if wval is not None and wval >= 999:
+        wval = None
 
-    our_level = percentile_to_level(percentile)
-    if our_level == "low" and percentile is None:
-        our_level = detect_prop_to_level(detect_prop)
-    our_trend = trend_label(ptc_15d)  # returns "stable" when ptc_15d is None
-
-    # County FIPS: use direct field first (present in 2ew6-ywp6 and newer datasets).
-    # Fall back to jurisdiction mapping only if the direct field is absent.
-    direct_fips = raw.get(f["county_fips"])
-    direct_name = raw.get(f["county_name"])
-
-    if direct_fips:
-        fips_list = [direct_fips]
+    # Use pre-computed site_wval_category when available (more reliable than numeric threshold)
+    wval_category = raw.get("site_wval_category", "")
+    if wval_category:
+        our_level = wval_category_to_level(wval_category)
     else:
-        # Older schema or multi-county plants: map from jurisdiction string
-        jurisdiction = raw.get(f["jurisdiction"], "")
-        fips_list = jurisdiction_to_fips(jurisdiction)
-        if not fips_list:
-            counties_served = raw.get("counties_served", "")
-            if counties_served:
-                fips_list = jurisdiction_to_fips(counties_served)
+        our_level = percentile_to_level(wval)
+
+    our_trend = "stable"   # trend not available in atcp-73re
+
+    # atcp-73re provides counties_served (name string), no county_fips field
+    county_name_raw = raw.get(f["county_name"], "")
+    fips_list = jurisdiction_to_fips(county_name_raw) if county_name_raw else []
 
     rows = []
     targets = fips_list if fips_list else [None]
     for fips in targets:
-        county_name = direct_name or (FIPS_TO_NAME.get(fips, "") if fips else None)
+        county_name = FIPS_TO_NAME.get(fips, county_name_raw) if fips else county_name_raw or None
         rows.append({
             "fetched_at":        fetched_at,
             "sample_date":       date_end[:10] if date_end else "",
@@ -386,10 +419,10 @@ def process_record(raw, fetched_at):
             "county_name":       county_name,
             "pathogen_raw":      pathogen_raw,
             "pathogen_slug":     pathogen_slug,
-            "concentration":     concentration,
-            "percentile":        percentile,
-            "detect_prop_15d":   detect_prop,
-            "ptc_15d":           ptc_15d,
+            "concentration":     None,
+            "percentile":        wval,
+            "detect_prop_15d":   None,
+            "ptc_15d":           None,
             "population_served": int(population) if population else None,
             "our_level":         our_level,
             "our_trend":         our_trend,
