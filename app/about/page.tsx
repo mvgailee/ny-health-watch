@@ -13,10 +13,9 @@ export default function AboutPage() {
       </Section>
 
       <Section title="Who built this?">
-        NY Health Watch was built by [Your name here], a computer science student at [University].
+        NY Health Watch was built by Michael Gaile, a computer science student at Cornell University.
         This is an independent project, not affiliated with NYSDOH, CDC, or any government agency.
-        All data sourced from public government datasets. [Update this section with your own background
-        and motivation for building the site.]
+        All data sourced from public government datasets.
       </Section>
 
       <Section title="Why does this exist?">
@@ -29,7 +28,8 @@ export default function AboutPage() {
       </Section>
 
       <Section title="Contact">
-        Questions, corrections, or feedback: [your email here]
+        Questions, corrections, or feedback: mvgaileee@gmail.com. If you are from the NYDOH, CDC, 
+        or other health department please reach out. I would love to chat about further data integration.
       </Section>
 
       <p style={{ fontSize: '12px', color: 'rgba(226,238,248,0.3)', marginTop: '32px', lineHeight: 1.6 }}>
