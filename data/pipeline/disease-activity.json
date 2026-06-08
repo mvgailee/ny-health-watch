@@ -7,11 +7,13 @@
     "tierC_source": "Manual \u2014 operator updated on NYSDOH outbreak declaration"
   },
   "covid-19": {
-    "level": "moderate",
+    "level": "watch",
     "trend": "rising",
-    "note": "Wastewater signal elevated and rising across several NYS regions, particularly downstate. Dominant variant is JN.1 descendants.",
-    "wastewaterLevel": "moderate",
-    "dataSourceLabel": "NYSDOH wastewater surveillance, updated daily"
+    "note": "Statewide wastewater signal at 69th percentile (population-weighted). 39 of 61 monitored counties reporting above median. Signal is rising across monitored plants. (data as of 2025-09-07 \u2014 274 days old)",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-06-08",
+    "wastewaterPercentile": 68.6,
+    "wastewaterCounties": 61,
+    "lastUpdated": "2026-06-08"
   },
   "influenza": {
     "level": "low",
