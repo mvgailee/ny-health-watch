@@ -36,21 +36,17 @@ jobs:
       - name: Compute threat levels
         run: python pipeline/compute_levels.py
 
-      # Only commit if something actually changed — avoids empty commits
-      # that would trigger unnecessary Vercel rebuilds
+      # Uses stefanzweifel/git-auto-commit-action which handles shallow clones,
+      # race conditions, and retries automatically — much more robust than
+      # manual git fetch/rebase/push.
       - name: Commit and push if data changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin main
-          git rebase origin/main
-          git add data/pipeline/disease-activity.json
-          git add data/pipeline/county-threats.json
-          git add data/pipeline/metadata.json
-          git add public/downloads/
-          if ! git diff --staged --quiet; then
-            git commit -m "data: daily pipeline update $(date -u +%Y-%m-%d)"
-            git push
-          else
-            echo "No data changes — skipping commit and Vercel rebuild"
-          fi
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: daily pipeline update"
+          file_pattern: >-
+            data/pipeline/disease-activity.json
+            data/pipeline/county-threats.json
+            data/pipeline/metadata.json
+            public/downloads/wastewater_by_county_latest.csv
+            public/downloads/wastewater_history.csv
+            public/downloads/README.md
