@@ -48,6 +48,7 @@ jobs:
           git add public/downloads/
           if ! git diff --staged --quiet; then
             git commit -m "data: daily pipeline update $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
             git push
           else
             echo "No data changes — skipping commit and Vercel rebuild"
