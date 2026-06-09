@@ -47,7 +47,7 @@ export default function MethodologyPage() {
       </Section>
 
       <p style={{ fontSize: '12px', color: 'rgba(226,238,248,0.3)', marginTop: '32px', lineHeight: 1.6 }}>
-        Questions about methodology: [your email here]
+        Questions about methodology: mvgaileee@gmail.com
       </p>
     </div>
   );

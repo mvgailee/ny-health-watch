@@ -39,7 +39,7 @@ export default function DisclaimersPage() {
       </Section>
 
       <p style={{ fontSize: '12px', color: 'rgba(226,238,248,0.3)', marginTop: '32px', lineHeight: 1.6 }}>
-        For questions about these disclaimers, contact: [your email here]
+        For questions about these disclaimers, contact: mvgaileee@gmail.com
       </p>
     </div>
   );
