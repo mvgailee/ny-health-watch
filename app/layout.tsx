@@ -3,8 +3,29 @@ import Nav from '@/components/Nav';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'NY Health Watch',
-  description: 'Infectious disease activity and health alerts for New York State.',
+  title: {
+    default: 'NY Health Watch',
+    template: '%s | NY Health Watch',
+  },
+  description: 'Track infectious disease activity across New York State by county. Real-time wastewater surveillance, annual case data, and threat level maps for 65 diseases.',
+  keywords: [
+    'New York infectious disease', 'NYS disease tracker', 'communicable disease New York',
+    'Lyme disease New York', 'county health map', 'wastewater surveillance',
+    'public health New York State', 'disease outbreak tracker',
+  ],
+  metadataBase: new URL('https://nyhealthwatch.org'),
+  openGraph: {
+    title: 'NY Health Watch',
+    description: 'Track infectious disease activity across New York State by county.',
+    url: 'https://nyhealthwatch.org',
+    siteName: 'NY Health Watch',
+    locale: 'en_US',
+    type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
