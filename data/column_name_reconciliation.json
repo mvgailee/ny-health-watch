@@ -1,0 +1,247 @@
+{
+ "BLASTOMYCOSIS": {
+  "BLASTOMY-COSIS": [
+   2019,
+   2022
+  ],
+  "BLASTOMYCOSIS": [
+   2021,
+   2023
+  ],
+  "BLASTO-MYCOSIS": [
+   2024
+  ]
+ },
+ "ECOLI": {
+  "E. COLI O157": [
+   2014,
+   2015
+  ],
+  "E. COLI SHIGA-TOXIN": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ]
+ },
+ "ENCEPH": {
+  "ENCEPHALITIS (NON-WESTNILE)": [
+   2014
+  ],
+  "ENCEPHALITIS (NON-WNV)": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021
+  ],
+  "ENCEPHALITIS**": [
+   2022,
+   2023,
+   2024
+  ]
+ },
+ "HEPATITIS B CHRONIC": {
+  "HEPATITIS B CHRONIC": [
+   2014,
+   2015
+  ],
+  "HEPATITIS B CHRONIC*": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ]
+ },
+ "HIV": {
+  "HIV*": [
+   2014,
+   2015
+  ],
+  "HIV**": [
+   2016
+  ]
+ },
+ "LYME DISEASE": {
+  "LYME DISEASE*": [
+   2014
+  ],
+  "LYME DISEASE**": [
+   2015,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021
+  ],
+  "LYME DISEASE***": [
+   2016
+  ],
+  "LYME DISEASE": [
+   2022,
+   2023,
+   2024
+  ]
+ },
+ "MELIOID": {
+  "MELIOIDOSIS": [
+   2017
+  ],
+  "MELIODISIS": [
+   2019,
+   2020
+  ]
+ },
+ "MENINGITIS ASEPTIC": {
+  "MENINGITIS ASEPTIC": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018
+  ],
+  "MENINGITIS, ASEPTIC": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ]
+ },
+ "MENINGOCOCCAL": {
+  "MENINGO-COCCAL": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "MENINGOCOCCAL": [
+   2024
+  ]
+ },
+ "MENING_OTHER": {
+  "MENINGITIS OTHER BACT. AND UNKNOWN": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018
+  ],
+  "MENINGITIS OTHER BACT. AND UNK": [
+   2019,
+   2020,
+   2021
+  ],
+  "MENINGITIS, OTHER**": [
+   2022,
+   2023,
+   2024
+  ]
+ },
+ "PARATYPHI": {
+  "S.paratyphi": [
+   2018
+  ],
+  "S. PARATYPHI": [
+   2019,
+   2020,
+   2021
+  ],
+  "SALMONELLOSIS, PARATYPHI": [
+   2022,
+   2023,
+   2024
+  ]
+ },
+ "RMSF": {
+  "RMSF": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018
+  ],
+  "ROCKY MT SPOTTED FEVER": [
+   2019,
+   2020,
+   2021
+  ],
+  "ROCKY MTN SPOTTED FEVER": [
+   2022,
+   2023,
+   2024
+  ]
+ },
+ "TUBERCULOSIS": {
+  "TUBERCULOSIS": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023
+  ],
+  "TUBERC-ULOSIS": [
+   2024
+  ]
+ },
+ "VISA": {
+  "VISA": [
+   2015,
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021
+  ],
+  "VANCOMYCIN INTERMEDIATE STAPHYLOCOCCUS AUREAUS": [
+   2022
+  ],
+  "VANCOMYCIN INTERMEDIATE STAPHLOCOCCUS AUREAUS": [
+   2023
+  ],
+  "VANCOMYCIN INTERMEDIATE STAPHL-OCOCCUS AUREAUS": [
+   2024
+  ]
+ },
+ "YERSINIA": {
+  "YERSINIOSIS": [
+   2014,
+   2015,
+   2016,
+   2017,
+   2018
+  ],
+  "YERSINIA": [
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024
+  ]
+ }
+}
