@@ -506,7 +506,7 @@ def main():
 
     now_iso = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     metadata["lastUpdated"]   = now_iso
-    metadata["sitewideNote"]  = f"Data updated {datetime.date.today().strftime('%B %-d, %Y')}"
+    metadata["sitewideNote"] = f"Data updated {datetime.date.today().strftime('%B %#d, %Y')}"
     metadata.setdefault("sources", {})["compute_levels"] = {
         "lastRun": now_iso,
         "month":   month,
