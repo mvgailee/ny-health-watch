@@ -16,9 +16,20 @@
       "updateFrequency": "weekly (seasonal Jun-Dec)"
     },
     "annual-report-pdf": {
-      "lastFetched": "2026-02-01",
-      "year": 2024,
-      "updateFrequency": "annual (February)"
+      "lastFetched": "2026-06-09T05:53:12Z",
+      "yearsInDB": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
     },
     "compute_levels": {
       "lastRun": "2026-06-08T17:07:47Z",
