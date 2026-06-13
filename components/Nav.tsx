@@ -29,11 +29,25 @@ export default function Nav() {
         position: 'relative',
       }}
     >
-      <Link href="/" style={{ textDecoration: 'none' }}>
-        <span style={{ fontSize: '15px', fontWeight: 500, color: '#c8dff0', letterSpacing: '0.01em' }}>
+      <style>{`
+        @media (max-width: 767px) { .nav-logo-full { display: none; } .nav-logo-icon { display: flex; } }
+        @media (min-width: 768px) { .nav-logo-full { display: flex; } .nav-logo-icon { display: none; } }
+      `}</style>
+
+      <Link href="/" style={{ textDecoration: 'none', flexShrink: 0 }}>
+        {/* Desktop: full text */}
+        <span className="nav-logo-full" style={{ fontSize: '15px', fontWeight: 500, color: '#c8dff0', letterSpacing: '0.01em' }}>
           NY{' '}
           <span style={{ color: '#27e66e' }}>Health</span>
           {' '}Watch
+        </span>
+        {/* Mobile: icon only */}
+        <span className="nav-logo-icon" style={{ alignItems: 'center', justifyContent: 'center' }}>
+          <svg width="28" height="28" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="6" fill="#0d1b2e"/>
+            <rect x="13" y="6" width="6" height="20" rx="2" fill="#27e66e"/>
+            <rect x="6" y="13" width="20" height="6" rx="2" fill="#27e66e"/>
+          </svg>
         </span>
       </Link>
 
