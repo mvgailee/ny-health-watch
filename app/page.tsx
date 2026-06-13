@@ -1,20 +1,28 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import CountyOverlay from '@/components/CountyOverlay';
+import MobileCountyList from '@/components/MobileCountyList';
 import { getAllCountyThreats, getCountyThreats, getSiteMetadata } from '@/lib/data-loader';
-import { type County } from '@/data/counties';
+import { counties, type County } from '@/data/counties';
 
 const CountyMap = dynamic(() => import('@/components/CountyMap'), { ssr: false });
 
 export default function HomePage() {
   const [selectedCounty, setSelectedCounty] = useState<County | null>(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768);
+    check();
+    window.addEventListener('resize', check);
+    return () => window.removeEventListener('resize', check);
+  }, []);
 
   const allThreats = useMemo(() => getAllCountyThreats(), []);
   const metadata = useMemo(() => getSiteMetadata(), []);
 
-  // Find counties with high-level alerts for the alert strip
   const severeAlerts = useMemo(() =>
     Object.entries(allThreats)
       .filter(([, t]) => t.threatLevel === 'high')
@@ -52,31 +60,39 @@ export default function HomePage() {
         </div>
       )}
 
-      {/* Map */}
-      <div style={{ flex: 1, position: 'relative' }}>
-        <CountyMap
-          onCountyClick={setSelectedCounty}
-          selectedFips={selectedCounty?.fips ?? null}
+      {/* Main content — map on desktop, county list on mobile */}
+      {isMobile ? (
+        <MobileCountyList
+          allThreats={allThreats}
+          allCounties={counties}
+          onCountySelect={setSelectedCounty}
         />
+      ) : (
+        <div style={{ flex: 1, position: 'relative' }}>
+          <CountyMap
+            onCountyClick={setSelectedCounty}
+            selectedFips={selectedCounty?.fips ?? null}
+          />
 
-        <div style={{
-          position: 'absolute', top: '16px', right: '20px',
-          fontSize: '11px', color: 'rgba(226,238,248,0.3)',
-          background: 'rgba(6,13,22,0.6)',
-          padding: '4px 10px', borderRadius: '5px',
-        }}>
-          {metadata.lastUpdated}
+          <div style={{
+            position: 'absolute', top: '16px', right: '20px',
+            fontSize: '11px', color: 'rgba(226,238,248,0.3)',
+            background: 'rgba(6,13,22,0.6)',
+            padding: '4px 10px', borderRadius: '5px',
+          }}>
+            {metadata.lastUpdated}
+          </div>
+
+          <div style={{
+            position: 'absolute', bottom: '20px', right: '20px',
+            fontSize: '12px', color: 'rgba(226,238,248,0.3)',
+          }}>
+            Click any county for details
+          </div>
         </div>
+      )}
 
-        <div style={{
-          position: 'absolute', bottom: '20px', right: '20px',
-          fontSize: '12px', color: 'rgba(226,238,248,0.3)',
-        }}>
-          Click any county for details
-        </div>
-      </div>
-
-      {/* County overlay */}
+      {/* County overlay — same on both mobile and desktop */}
       {selectedCounty && selectedThreatData && (
         <CountyOverlay
           county={selectedCounty}
@@ -87,3 +103,5 @@ export default function HomePage() {
     </div>
   );
 }
+
+

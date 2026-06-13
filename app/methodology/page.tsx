@@ -40,6 +40,39 @@ export default function MethodologyPage() {
         NYSDOH directly at health.ny.gov.
       </Section>
 
+      <Section title="Why does annual case data only go up to 2024?">
+        The NYSDOH Communicable Disease Annual Report is typically published 12–18 months after the
+        end of the reporting year. The 2024 report — covering cases reported during calendar year 2024
+        — was released in early 2026. The 2025 report will not be available until early-to-mid 2027.
+        This lag is structural: data must be collected from hundreds of providers across the state,
+        validated, deduplicated, and reviewed before publication.
+        <br /><br />
+        Recent federal public health funding cuts — including reductions to CDC and NIH grants that
+        flow through to state health departments — have further strained the resources available for
+        data collection, analysis, and publication. New York State's epidemiology workforce has seen
+        budget pressure that makes timely reporting harder to sustain.
+        <br /><br />
+        If you believe New York State should release communicable disease data faster and more
+        completely, the most effective thing you can do is{' '}
+        <a
+          href="https://www.nysenate.gov/find-my-senator"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: '#7eb8f0' }}
+        >
+          contact your state senator
+        </a>{' '}and{' '}
+        <a
+          href="https://nyassembly.gov/mem/search/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: '#7eb8f0' }}
+        >
+          assembly member
+        </a>{' '}
+        and ask them to prioritize public health data infrastructure funding.
+      </Section>
+
       <Section title="Updates">
         The site is updated at minimum weekly. During active outbreaks, relevant county and disease pages
         may be updated more frequently. The last-updated date is displayed on each county overlay and
@@ -47,7 +80,7 @@ export default function MethodologyPage() {
       </Section>
 
       <p style={{ fontSize: '12px', color: 'rgba(226,238,248,0.3)', marginTop: '32px', lineHeight: 1.6 }}>
-        Questions about methodology: mvgaileee@gmail.com
+        Questions about methodology: [your email here]
       </p>
     </div>
   );
