@@ -32,6 +32,17 @@ export default function Nav() {
       <style>{`
         @media (max-width: 767px) { .nav-logo-full { display: none; } .nav-logo-icon { display: flex; } }
         @media (min-width: 768px) { .nav-logo-full { display: flex; } .nav-logo-icon { display: none; } }
+        .nav-links {
+          display: flex;
+          gap: 2px;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          scrollbar-width: none;
+        }
+        .nav-links::-webkit-scrollbar { display: none; }
+        @media (max-width: 767px) {
+          .nav-link { font-size: 12px !important; padding: 6px 9px !important; }
+        }
       `}</style>
 
       <Link href="/" style={{ textDecoration: 'none', flexShrink: 0 }}>
@@ -51,13 +62,14 @@ export default function Nav() {
         </span>
       </Link>
 
-      <div style={{ display: 'flex', gap: '2px' }}>
+      <div className="nav-links">
         {links.map(({ href, label }) => {
           const active = href === '/' ? pathname === '/' : pathname.startsWith(href);
           return (
             <Link
               key={href}
               href={href}
+              className="nav-link"
               style={{
                 fontSize: '13px',
                 padding: '6px 14px',
