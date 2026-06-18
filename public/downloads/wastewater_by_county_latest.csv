@@ -1,7 +1,7 @@
 county_fips,county_name,pathogen_slug,pathogen_raw,sample_date,percentile,detect_prop_15d,trend_pct_15d,our_level,our_trend,plant_name,population_served,fetched_at
-36075,Oswego,covid-19,SARS-CoV-2,2026-06-06,0.55,,,low,stable,ID:1378,30000,2026-06-17T17:51:34Z
-36075,Oswego,influenza,Influenza A virus,2026-06-06,1.0,,,low,stable,ID:1378,30000,2026-06-17T17:51:34Z
-36075,Oswego,rsv,RSV,2026-06-06,1.0,,,low,stable,ID:1378,30000,2026-06-17T17:51:34Z
-36109,Tompkins,covid-19,SARS-CoV-2,2026-06-06,0.63,,,low,stable,ID:1431,90000,2026-06-17T17:51:34Z
-36109,Tompkins,influenza,Influenza A virus,2026-06-06,1.0,,,low,stable,ID:1431,90000,2026-06-17T17:51:34Z
-36109,Tompkins,rsv,RSV,2026-06-06,2.7,,,low,stable,ID:1431,90000,2026-06-17T17:51:34Z
+36075,Oswego,covid-19,SARS-CoV-2,2026-06-06,0.55,,,low,stable,ID:1378,30000,2026-06-18T18:12:08Z
+36075,Oswego,influenza,Influenza A virus,2026-06-06,1.0,,,low,stable,ID:1378,30000,2026-06-18T18:12:08Z
+36075,Oswego,rsv,RSV,2026-06-06,1.0,,,low,stable,ID:1378,30000,2026-06-18T18:12:08Z
+36109,Tompkins,covid-19,SARS-CoV-2,2026-06-06,0.63,,,low,stable,ID:1431,90000,2026-06-18T18:12:08Z
+36109,Tompkins,influenza,Influenza A virus,2026-06-06,1.0,,,low,stable,ID:1431,90000,2026-06-18T18:12:08Z
+36109,Tompkins,rsv,RSV,2026-06-06,2.7,,,low,stable,ID:1431,90000,2026-06-18T18:12:08Z
