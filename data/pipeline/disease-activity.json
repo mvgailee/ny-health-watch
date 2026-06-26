@@ -7,31 +7,31 @@
     "tierC_source": "Manual \u2014 operator updated on NYSDOH outbreak declaration"
   },
   "covid-19": {
-    "level": "moderate",
+    "level": "low",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 6th percentile (population-weighted). 0 of 2 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-06-25",
-    "wastewaterPercentile": 6.3,
-    "wastewaterCounties": 2,
-    "lastUpdated": "2026-06-25"
+    "note": "Statewide wastewater signal at 1th percentile (population-weighted). 0 of 50 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-06-26",
+    "wastewaterPercentile": 1.4,
+    "wastewaterCounties": 50,
+    "lastUpdated": "2026-06-26"
   },
   "influenza": {
     "level": "low",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 1th percentile (population-weighted). 0 of 2 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-06-25",
-    "wastewaterPercentile": 1.0,
+    "note": "Statewide wastewater signal at 2th percentile (population-weighted). 0 of 2 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-06-26",
+    "wastewaterPercentile": 2.3,
     "wastewaterCounties": 2,
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
   },
   "rsv": {
     "level": "low",
     "trend": "stable",
     "note": "Statewide wastewater signal at 2th percentile (population-weighted). 0 of 2 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-06-25",
-    "wastewaterPercentile": 1.8,
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-06-26",
+    "wastewaterPercentile": 2.3,
     "wastewaterCounties": 2,
-    "lastUpdated": "2026-06-25"
+    "lastUpdated": "2026-06-26"
   },
   "norovirus": {
     "level": "low",
