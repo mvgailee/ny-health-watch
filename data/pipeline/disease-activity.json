@@ -9,29 +9,29 @@
   "covid-19": {
     "level": "low",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 1th percentile (population-weighted). 0 of 46 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-07-04",
-    "wastewaterPercentile": 1.3,
-    "wastewaterCounties": 46,
-    "lastUpdated": "2026-07-04"
+    "note": "Statewide wastewater signal at 0th percentile (population-weighted). 0 of 2 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-07-05",
+    "wastewaterPercentile": 0.3,
+    "wastewaterCounties": 2,
+    "lastUpdated": "2026-07-05"
   },
   "influenza": {
     "level": "low",
     "trend": "stable",
     "note": "Statewide wastewater signal at 2th percentile (population-weighted). 0 of 2 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-07-04",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-07-05",
     "wastewaterPercentile": 2.3,
     "wastewaterCounties": 2,
-    "lastUpdated": "2026-07-04"
+    "lastUpdated": "2026-07-05"
   },
   "rsv": {
     "level": "low",
     "trend": "stable",
     "note": "Statewide wastewater signal at 2th percentile (population-weighted). 0 of 2 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-07-04",
-    "wastewaterPercentile": 2.3,
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-07-05",
+    "wastewaterPercentile": 2.1,
     "wastewaterCounties": 2,
-    "lastUpdated": "2026-07-04"
+    "lastUpdated": "2026-07-05"
   },
   "norovirus": {
     "level": "low",
