@@ -1,12 +1,12 @@
 county_fips,county_name,pathogen_slug,pathogen_raw,sample_date,percentile,detect_prop_15d,trend_pct_15d,our_level,our_trend,plant_name,population_served,fetched_at
-36059,Nassau,covid-19,SARS-CoV-2,2026-07-04,1.1,,,low,stable,ID:1329,611349,2026-07-21T09:26:40Z
-36059,Nassau,covid-19,SARS-CoV-2,2026-07-04,0.33,,,low,stable,ID:1330,524955,2026-07-21T09:26:40Z
-36059,Nassau,covid-19,SARS-CoV-2,2026-07-04,0.39,,,low,stable,ID:1331,27494,2026-07-21T09:26:40Z
-36059,Nassau,covid-19,SARS-CoV-2,2026-07-04,1.0,,,low,stable,ID:1335,20616,2026-07-21T09:26:40Z
-36075,Oswego,covid-19,SARS-CoV-2,2026-07-11,0.67,,,low,stable,ID:1378,30000,2026-07-21T09:26:40Z
-36075,Oswego,influenza,Influenza A virus,2026-07-11,1.0,,,low,stable,ID:1378,30000,2026-07-21T09:26:40Z
-36075,Oswego,rsv,RSV,2026-07-11,1.0,,,low,stable,ID:1378,30000,2026-07-21T09:26:40Z
-36103,Suffolk,covid-19,SARS-CoV-2,2026-07-04,1.0,,,low,stable,ID:1415,7741,2026-07-21T09:26:40Z
-36109,Tompkins,covid-19,SARS-CoV-2,2026-07-04,0.65,,,low,stable,ID:1431,90000,2026-07-21T09:26:40Z
-36109,Tompkins,influenza,Influenza A virus,2026-07-04,1.0,,,low,stable,ID:1431,90000,2026-07-21T09:26:40Z
-36109,Tompkins,rsv,RSV,2026-07-04,1.0,,,low,stable,ID:1431,90000,2026-07-21T09:26:40Z
+36059,Nassau,covid-19,SARS-CoV-2,2026-07-04,1.1,,,low,stable,ID:1329,611349,2026-07-22T09:26:58Z
+36059,Nassau,covid-19,SARS-CoV-2,2026-07-04,0.33,,,low,stable,ID:1330,524955,2026-07-22T09:26:58Z
+36059,Nassau,covid-19,SARS-CoV-2,2026-07-04,0.39,,,low,stable,ID:1331,27494,2026-07-22T09:26:58Z
+36059,Nassau,covid-19,SARS-CoV-2,2026-07-04,1.0,,,low,stable,ID:1335,20616,2026-07-22T09:26:58Z
+36075,Oswego,covid-19,SARS-CoV-2,2026-07-11,0.67,,,low,stable,ID:1378,30000,2026-07-22T09:26:58Z
+36075,Oswego,influenza,Influenza A virus,2026-07-11,1.0,,,low,stable,ID:1378,30000,2026-07-22T09:26:58Z
+36075,Oswego,rsv,RSV,2026-07-11,1.0,,,low,stable,ID:1378,30000,2026-07-22T09:26:58Z
+36103,Suffolk,covid-19,SARS-CoV-2,2026-07-04,1.0,,,low,stable,ID:1415,7741,2026-07-22T09:26:58Z
+36109,Tompkins,covid-19,SARS-CoV-2,2026-07-04,0.65,,,low,stable,ID:1431,90000,2026-07-22T09:26:58Z
+36109,Tompkins,influenza,Influenza A virus,2026-07-04,1.0,,,low,stable,ID:1431,90000,2026-07-22T09:26:58Z
+36109,Tompkins,rsv,RSV,2026-07-04,1.0,,,low,stable,ID:1431,90000,2026-07-22T09:26:58Z
