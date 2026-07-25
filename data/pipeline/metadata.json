@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-24T09:21:54Z",
-  "sitewideNote": "Data updated July 24, 2026",
+  "lastUpdated": "2026-07-25T09:02:29Z",
+  "sitewideNote": "Data updated July 25, 2026",
   "sources": {
     "wastewater": {
-      "lastFetched": "2026-07-24T09:21:54Z",
-      "recordsAdded": 14,
+      "lastFetched": "2026-07-25T09:02:29Z",
+      "recordsAdded": 280,
       "updateFrequency": "daily"
     },
     "respiratory-pdf": {
@@ -32,7 +32,7 @@
       ]
     },
     "compute_levels": {
-      "lastRun": "2026-07-24T09:21:54Z",
+      "lastRun": "2026-07-25T09:02:29Z",
       "month": 7
     }
   },
