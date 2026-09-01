@@ -1,207 +1,207 @@
 county_fips,county_name,pathogen_slug,pathogen_raw,sample_date,percentile,detect_prop_15d,trend_pct_15d,our_level,our_trend,plant_name,population_served,fetched_at
-36001,Albany,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1244,80922,2026-08-31T14:53:03Z
-36001,Albany,covid-19,SARS-CoV-2,2026-08-22,3.72,,,low,stable,ID:1245,21281,2026-08-31T14:53:03Z
-36001,Albany,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1246,31023,2026-08-31T14:53:03Z
-36001,Albany,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1247,109426,2026-08-31T14:53:03Z
-36001,Albany,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1244,80922,2026-08-31T14:53:03Z
-36001,Albany,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1247,109426,2026-08-31T14:53:03Z
-36001,Albany,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1244,80922,2026-08-31T14:53:03Z
-36001,Albany,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1247,109426,2026-08-31T14:53:03Z
-36007,Broome,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1254,38726,2026-08-31T14:53:03Z
-36009,Cattaraugus,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1255,17760,2026-08-31T14:53:03Z
-36009,Cattaraugus,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1255,17760,2026-08-31T14:53:03Z
-36009,Cattaraugus,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1255,17760,2026-08-31T14:53:03Z
-36011,Cayuga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1256,31814,2026-08-31T14:53:03Z
-36011,Cayuga,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1256,31814,2026-08-31T14:53:03Z
-36011,Cayuga,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1256,31814,2026-08-31T14:53:03Z
-36013,Chautauqua,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1258,12616,2026-08-31T14:53:03Z
-36013,Chautauqua,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1259,32501,2026-08-31T14:53:03Z
-36013,Chautauqua,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1260,3365,2026-08-31T14:53:03Z
-36013,Chautauqua,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1257,9379,2026-08-31T14:53:03Z
-36013,Chautauqua,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1259,32501,2026-08-31T14:53:03Z
-36013,Chautauqua,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1258,12616,2026-08-31T14:53:03Z
-36013,Chautauqua,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1258,12616,2026-08-31T14:53:03Z
-36013,Chautauqua,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1259,32501,2026-08-31T14:53:03Z
-36015,Chemung,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1261,38037,2026-08-31T14:53:03Z
-36015,Chemung,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1262,18085,2026-08-31T14:53:03Z
-36015,Chemung,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1261,38037,2026-08-31T14:53:03Z
-36015,Chemung,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1261,38037,2026-08-31T14:53:03Z
-36017,Chenango,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1263,6734,2026-08-31T14:53:03Z
-36017,Chenango,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1263,6734,2026-08-31T14:53:03Z
-36017,Chenango,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1263,6734,2026-08-31T14:53:03Z
-36019,Clinton,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1264,5532,2026-08-31T14:53:03Z
-36021,Columbia,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1269,6374,2026-08-31T14:53:03Z
-36021,Columbia,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1269,6374,2026-08-31T14:53:03Z
-36021,Columbia,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1269,6374,2026-08-31T14:53:03Z
-36023,Cortland,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1270,26950,2026-08-31T14:53:03Z
-36023,Cortland,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1270,26950,2026-08-31T14:53:03Z
-36023,Cortland,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1270,26950,2026-08-31T14:53:03Z
-36025,Delaware,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1272,3581,2026-08-31T14:53:03Z
-36025,Delaware,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1272,3581,2026-08-31T14:53:03Z
-36025,Delaware,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1272,3581,2026-08-31T14:53:03Z
-36027,Dutchess,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1276,14525,2026-08-31T14:53:03Z
-36027,Dutchess,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1277,21516,2026-08-31T14:53:03Z
-36027,Dutchess,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1279,13856,2026-08-31T14:53:03Z
-36027,Dutchess,influenza,Influenza A virus,2026-08-15,1.0,,,low,stable,ID:1278,38207,2026-08-31T14:53:03Z
-36027,Dutchess,rsv,RSV,2026-08-15,1.0,,,low,stable,ID:1278,38207,2026-08-31T14:53:03Z
-36029,Erie,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:2561,71131,2026-08-31T14:53:03Z
-36029,Erie,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1282,431141,2026-08-31T14:53:03Z
-36029,Erie,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1283,6908,2026-08-31T14:53:03Z
-36029,Erie,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1284,17983,2026-08-31T14:53:03Z
-36029,Erie,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1285,24461,2026-08-31T14:53:03Z
-36029,Erie,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1287,83961,2026-08-31T14:53:03Z
-36029,Erie,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:2561,71131,2026-08-31T14:53:03Z
-36029,Erie,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1282,431141,2026-08-31T14:53:03Z
-36029,Erie,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:2561,71131,2026-08-31T14:53:03Z
-36029,Erie,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1282,431141,2026-08-31T14:53:03Z
-36031,Essex,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:2563,6264,2026-08-31T14:53:03Z
-36031,Essex,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:2563,6264,2026-08-31T14:53:03Z
-36031,Essex,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:2563,6264,2026-08-31T14:53:03Z
-36033,Franklin,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1296,7175,2026-08-31T14:53:03Z
-36033,Franklin,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1296,7175,2026-08-31T14:53:03Z
-36033,Franklin,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1296,7175,2026-08-31T14:53:03Z
-36037,Genesee,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1298,16459,2026-08-31T14:53:03Z
-36037,Genesee,covid-19,SARS-CoV-2,2026-08-22,2.04,,,low,stable,ID:1300,4191,2026-08-31T14:53:03Z
-36037,Genesee,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1298,16459,2026-08-31T14:53:03Z
-36037,Genesee,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1298,16459,2026-08-31T14:53:03Z
-36039,Greene,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1301,4896,2026-08-31T14:53:03Z
-36043,Herkimer,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1304,13924,2026-08-31T14:53:03Z
-36043,Herkimer,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1304,13924,2026-08-31T14:53:03Z
-36043,Herkimer,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1304,13924,2026-08-31T14:53:03Z
-36045,Jefferson,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1307,4077,2026-08-31T14:53:03Z
-36045,Jefferson,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1307,4077,2026-08-31T14:53:03Z
-36045,Jefferson,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1307,4077,2026-08-31T14:53:03Z
-36051,Livingston,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1314,4730,2026-08-31T14:53:03Z
-36051,Livingston,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1315,15688,2026-08-31T14:53:03Z
-36051,Livingston,covid-19,SARS-CoV-2,2026-08-22,2.83,,,low,stable,ID:1316,5361,2026-08-31T14:53:03Z
-36051,Livingston,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1317,3288,2026-08-31T14:53:03Z
-36051,Livingston,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1315,15688,2026-08-31T14:53:03Z
-36051,Livingston,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1315,15688,2026-08-31T14:53:03Z
-36053,Madison,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1318,4843,2026-08-31T14:53:03Z
-36055,Monroe,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1323,487322,2026-08-31T14:53:03Z
-36055,Monroe,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1324,155096,2026-08-31T14:53:03Z
-36055,Monroe,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1325,43074,2026-08-31T14:53:03Z
-36055,Monroe,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1326,6400,2026-08-31T14:53:03Z
-36055,Monroe,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1323,487322,2026-08-31T14:53:03Z
-36055,Monroe,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1324,155096,2026-08-31T14:53:03Z
-36055,Monroe,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1323,487322,2026-08-31T14:53:03Z
-36055,Monroe,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1324,155096,2026-08-31T14:53:03Z
-36057,Montgomery,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1327,19679,2026-08-31T14:53:03Z
-36057,Montgomery,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1327,19679,2026-08-31T14:53:03Z
-36057,Montgomery,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1327,19679,2026-08-31T14:53:03Z
-36059,Nassau,covid-19,SARS-CoV-2,2026-08-15,1.16,,,low,stable,ID:1329,611349,2026-08-31T14:53:03Z
-36059,Nassau,covid-19,SARS-CoV-2,2026-08-15,1.17,,,low,stable,ID:1330,524955,2026-08-31T14:53:03Z
-36059,Nassau,covid-19,SARS-CoV-2,2026-08-15,1.68,,,low,stable,ID:1331,27494,2026-08-31T14:53:03Z
-36059,Nassau,covid-19,SARS-CoV-2,2026-08-15,3.57,,,low,stable,ID:1335,20616,2026-08-31T14:53:03Z
-36063,Niagara,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1339,48196,2026-08-31T14:53:03Z
-36063,Niagara,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1341,31032,2026-08-31T14:53:03Z
-36063,Niagara,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1343,5632,2026-08-31T14:53:03Z
-36063,Niagara,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1339,48196,2026-08-31T14:53:03Z
-36063,Niagara,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1339,48196,2026-08-31T14:53:03Z
-36065,Oneida,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1350,3990,2026-08-31T14:53:03Z
-36065,Oneida,covid-19,SARS-CoV-2,2026-08-22,14.44,,,high,stable,ID:1351,3210,2026-08-31T14:53:03Z
-36065,Oneida,covid-19,SARS-CoV-2,2026-08-22,2.74,,,low,stable,ID:1353,6076,2026-08-31T14:53:03Z
-36065,Oneida,influenza,Influenza A virus,2026-08-15,1.0,,,low,stable,ID:2566,55215,2026-08-31T14:53:03Z
-36065,Oneida,rsv,RSV,2026-08-15,1.0,,,low,stable,ID:2566,55215,2026-08-31T14:53:03Z
-36067,Onondaga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1354,30613,2026-08-31T14:53:03Z
-36067,Onondaga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1355,16168,2026-08-31T14:53:03Z
-36067,Onondaga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1356,39352,2026-08-31T14:53:03Z
-36067,Onondaga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1357,242377,2026-08-31T14:53:03Z
-36067,Onondaga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1359,50727,2026-08-31T14:53:03Z
-36067,Onondaga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1361,25965,2026-08-31T14:53:03Z
-36067,Onondaga,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1357,242377,2026-08-31T14:53:03Z
-36067,Onondaga,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1359,50727,2026-08-31T14:53:03Z
-36067,Onondaga,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1357,242377,2026-08-31T14:53:03Z
-36067,Onondaga,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1359,50727,2026-08-31T14:53:03Z
-36069,Ontario,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1362,17936,2026-08-31T14:53:03Z
-36069,Ontario,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1363,16507,2026-08-31T14:53:03Z
-36069,Ontario,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1362,17936,2026-08-31T14:53:03Z
-36069,Ontario,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1362,17936,2026-08-31T14:53:03Z
-36071,Orange,covid-19,SARS-CoV-2,2026-08-22,9.47,,,moderate,stable,ID:1364,6369,2026-08-31T14:53:03Z
-36071,Orange,covid-19,SARS-CoV-2,2026-08-22,3.79,,,low,stable,ID:1365,27434,2026-08-31T14:53:03Z
-36071,Orange,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1366,36227,2026-08-31T14:53:03Z
-36071,Orange,covid-19,SARS-CoV-2,2026-08-22,16.17,,,high,stable,ID:1367,42921,2026-08-31T14:53:03Z
-36071,Orange,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1368,8568,2026-08-31T14:53:03Z
-36071,Orange,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1369,6563,2026-08-31T14:53:03Z
-36071,Orange,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1371,6729,2026-08-31T14:53:03Z
-36071,Orange,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1366,36227,2026-08-31T14:53:03Z
-36071,Orange,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1367,42921,2026-08-31T14:53:03Z
-36071,Orange,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1366,36227,2026-08-31T14:53:03Z
-36071,Orange,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1367,42921,2026-08-31T14:53:03Z
-36073,Orleans,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1375,6191,2026-08-31T14:53:03Z
-36075,Oswego,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1377,12117,2026-08-31T14:53:03Z
-36075,Oswego,covid-19,SARS-CoV-2,2026-08-22,0.37,,,low,stable,ID:1378,30000,2026-08-31T14:53:03Z
-36075,Oswego,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1380,8849,2026-08-31T14:53:03Z
-36075,Oswego,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1378,30000,2026-08-31T14:53:03Z
-36075,Oswego,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1378,30000,2026-08-31T14:53:03Z
-36077,Otsego,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1381,19383,2026-08-31T14:53:03Z
-36077,Otsego,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1381,19383,2026-08-31T14:53:03Z
-36077,Otsego,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1381,19383,2026-08-31T14:53:03Z
-36079,Putnam,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1382,4480,2026-08-31T14:53:03Z
-36079,Putnam,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1382,4480,2026-08-31T14:53:03Z
-36079,Putnam,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1382,4480,2026-08-31T14:53:03Z
-36083,Rensselaer,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1389,79699,2026-08-31T14:53:03Z
-36083,Rensselaer,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1389,79699,2026-08-31T14:53:03Z
-36083,Rensselaer,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1389,79699,2026-08-31T14:53:03Z
-36087,Rockland,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1393,36527,2026-08-31T14:53:03Z
-36087,Rockland,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1395,207430,2026-08-31T14:53:03Z
-36087,Rockland,covid-19,SARS-CoV-2,2026-08-22,4.28,,,low,stable,ID:1396,12676,2026-08-31T14:53:03Z
-36087,Rockland,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1398,4115,2026-08-31T14:53:03Z
-36087,Rockland,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1393,36527,2026-08-31T14:53:03Z
-36087,Rockland,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1395,207430,2026-08-31T14:53:03Z
-36087,Rockland,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1393,36527,2026-08-31T14:53:03Z
-36087,Rockland,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1395,207430,2026-08-31T14:53:03Z
-36091,Saratoga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1404,152482,2026-08-31T14:53:03Z
-36091,Saratoga,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1404,152482,2026-08-31T14:53:03Z
-36091,Saratoga,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1404,152482,2026-08-31T14:53:03Z
-36093,Schenectady,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1405,78444,2026-08-31T14:53:03Z
-36093,Schenectady,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1405,78444,2026-08-31T14:53:03Z
-36093,Schenectady,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1405,78444,2026-08-31T14:53:03Z
-36095,Schoharie,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1406,5326,2026-08-31T14:53:03Z
-36095,Schoharie,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1406,5326,2026-08-31T14:53:03Z
-36095,Schoharie,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1406,5326,2026-08-31T14:53:03Z
-36099,Seneca,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1409,6160,2026-08-31T14:53:03Z
-36099,Seneca,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1409,6160,2026-08-31T14:53:03Z
-36099,Seneca,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1409,6160,2026-08-31T14:53:03Z
-36101,Steuben,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1410,5941,2026-08-31T14:53:03Z
-36101,Steuben,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1412,5162,2026-08-31T14:53:03Z
-36101,Steuben,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1410,5941,2026-08-31T14:53:03Z
-36101,Steuben,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1410,5941,2026-08-31T14:53:03Z
-36103,Suffolk,covid-19,SARS-CoV-2,2026-08-15,1.0,,,low,stable,ID:1415,7741,2026-08-31T14:53:03Z
-36105,Sullivan,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1424,6639,2026-08-31T14:53:03Z
-36105,Sullivan,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1425,4925,2026-08-31T14:53:03Z
-36105,Sullivan,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1424,6639,2026-08-31T14:53:03Z
-36105,Sullivan,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1424,6639,2026-08-31T14:53:03Z
-36107,Tioga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1429,3750,2026-08-31T14:53:03Z
-36107,Tioga,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1429,3750,2026-08-31T14:53:03Z
-36107,Tioga,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1429,3750,2026-08-31T14:53:03Z
-36109,Tompkins,covid-19,SARS-CoV-2,2026-08-22,1.42,,,low,stable,ID:1431,90000,2026-08-31T14:53:03Z
-36109,Tompkins,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1431,90000,2026-08-31T14:53:03Z
-36109,Tompkins,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1431,90000,2026-08-31T14:53:03Z
-36111,Ulster,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1432,26599,2026-08-31T14:53:03Z
-36111,Ulster,covid-19,SARS-CoV-2,2026-08-22,4.13,,,low,stable,ID:1433,10577,2026-08-31T14:53:03Z
-36111,Ulster,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1432,26599,2026-08-31T14:53:03Z
-36111,Ulster,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1432,26599,2026-08-31T14:53:03Z
-36117,Wayne,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1439,8931,2026-08-31T14:53:03Z
-36117,Wayne,covid-19,SARS-CoV-2,2026-08-22,7.08,,,watch,stable,ID:1440,5145,2026-08-31T14:53:03Z
-36117,Wayne,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1439,8931,2026-08-31T14:53:03Z
-36117,Wayne,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1439,8931,2026-08-31T14:53:03Z
-36119,Westchester,covid-19,SARS-CoV-2,2026-08-22,9.29,,,moderate,stable,ID:1441,78683,2026-08-31T14:53:03Z
-36119,Westchester,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1442,94095,2026-08-31T14:53:03Z
-36119,Westchester,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1443,44876,2026-08-31T14:53:03Z
-36119,Westchester,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1444,31046,2026-08-31T14:53:03Z
-36119,Westchester,covid-19,SARS-CoV-2,2026-08-22,4.94,,,watch,stable,ID:1445,523765,2026-08-31T14:53:03Z
-36119,Westchester,covid-19,SARS-CoV-2,2026-08-22,3.4,,,low,stable,ID:1446,26651,2026-08-31T14:53:03Z
-36119,Westchester,covid-19,SARS-CoV-2,2026-08-22,24.08,,,high,stable,ID:1447,40301,2026-08-31T14:53:03Z
-36119,Westchester,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1441,78683,2026-08-31T14:53:03Z
-36119,Westchester,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1442,94095,2026-08-31T14:53:03Z
-36119,Westchester,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1445,523765,2026-08-31T14:53:03Z
-36119,Westchester,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1441,78683,2026-08-31T14:53:03Z
-36119,Westchester,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1442,94095,2026-08-31T14:53:03Z
-36119,Westchester,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1445,523765,2026-08-31T14:53:03Z
-36121,Wyoming,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1448,3448,2026-08-31T14:53:03Z
-36121,Wyoming,influenza,Influenza A virus,2026-08-22,2.95,,,low,stable,ID:1448,3448,2026-08-31T14:53:03Z
-36121,Wyoming,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1448,3448,2026-08-31T14:53:03Z
-36123,Yates,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1449,5339,2026-08-31T14:53:03Z
-36123,Yates,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1449,5339,2026-08-31T14:53:03Z
-36123,Yates,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1449,5339,2026-08-31T14:53:03Z
+36001,Albany,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1244,80922,2026-09-01T12:23:34Z
+36001,Albany,covid-19,SARS-CoV-2,2026-08-22,3.72,,,low,stable,ID:1245,21281,2026-09-01T12:23:34Z
+36001,Albany,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1246,31023,2026-09-01T12:23:34Z
+36001,Albany,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1247,109426,2026-09-01T12:23:34Z
+36001,Albany,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1244,80922,2026-09-01T12:23:34Z
+36001,Albany,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1247,109426,2026-09-01T12:23:34Z
+36001,Albany,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1244,80922,2026-09-01T12:23:34Z
+36001,Albany,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1247,109426,2026-09-01T12:23:34Z
+36007,Broome,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1254,38726,2026-09-01T12:23:34Z
+36009,Cattaraugus,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1255,17760,2026-09-01T12:23:34Z
+36009,Cattaraugus,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1255,17760,2026-09-01T12:23:34Z
+36009,Cattaraugus,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1255,17760,2026-09-01T12:23:34Z
+36011,Cayuga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1256,31814,2026-09-01T12:23:34Z
+36011,Cayuga,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1256,31814,2026-09-01T12:23:34Z
+36011,Cayuga,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1256,31814,2026-09-01T12:23:34Z
+36013,Chautauqua,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1258,12616,2026-09-01T12:23:34Z
+36013,Chautauqua,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1259,32501,2026-09-01T12:23:34Z
+36013,Chautauqua,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1260,3365,2026-09-01T12:23:34Z
+36013,Chautauqua,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1257,9379,2026-09-01T12:23:34Z
+36013,Chautauqua,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1259,32501,2026-09-01T12:23:34Z
+36013,Chautauqua,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1258,12616,2026-09-01T12:23:34Z
+36013,Chautauqua,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1258,12616,2026-09-01T12:23:34Z
+36013,Chautauqua,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1259,32501,2026-09-01T12:23:34Z
+36015,Chemung,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1261,38037,2026-09-01T12:23:34Z
+36015,Chemung,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1262,18085,2026-09-01T12:23:34Z
+36015,Chemung,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1261,38037,2026-09-01T12:23:34Z
+36015,Chemung,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1261,38037,2026-09-01T12:23:34Z
+36017,Chenango,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1263,6734,2026-09-01T12:23:34Z
+36017,Chenango,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1263,6734,2026-09-01T12:23:34Z
+36017,Chenango,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1263,6734,2026-09-01T12:23:34Z
+36019,Clinton,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1264,5532,2026-09-01T12:23:34Z
+36021,Columbia,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1269,6374,2026-09-01T12:23:34Z
+36021,Columbia,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1269,6374,2026-09-01T12:23:34Z
+36021,Columbia,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1269,6374,2026-09-01T12:23:34Z
+36023,Cortland,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1270,26950,2026-09-01T12:23:34Z
+36023,Cortland,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1270,26950,2026-09-01T12:23:34Z
+36023,Cortland,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1270,26950,2026-09-01T12:23:34Z
+36025,Delaware,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1272,3581,2026-09-01T12:23:34Z
+36025,Delaware,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1272,3581,2026-09-01T12:23:34Z
+36025,Delaware,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1272,3581,2026-09-01T12:23:34Z
+36027,Dutchess,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1276,14525,2026-09-01T12:23:34Z
+36027,Dutchess,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1277,21516,2026-09-01T12:23:34Z
+36027,Dutchess,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1279,13856,2026-09-01T12:23:34Z
+36027,Dutchess,influenza,Influenza A virus,2026-08-15,1.0,,,low,stable,ID:1278,38207,2026-09-01T12:23:34Z
+36027,Dutchess,rsv,RSV,2026-08-15,1.0,,,low,stable,ID:1278,38207,2026-09-01T12:23:34Z
+36029,Erie,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:2561,71131,2026-09-01T12:23:34Z
+36029,Erie,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1282,431141,2026-09-01T12:23:34Z
+36029,Erie,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1283,6908,2026-09-01T12:23:34Z
+36029,Erie,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1284,17983,2026-09-01T12:23:34Z
+36029,Erie,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1285,24461,2026-09-01T12:23:34Z
+36029,Erie,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1287,83961,2026-09-01T12:23:34Z
+36029,Erie,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:2561,71131,2026-09-01T12:23:34Z
+36029,Erie,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1282,431141,2026-09-01T12:23:34Z
+36029,Erie,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:2561,71131,2026-09-01T12:23:34Z
+36029,Erie,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1282,431141,2026-09-01T12:23:34Z
+36031,Essex,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:2563,6264,2026-09-01T12:23:34Z
+36031,Essex,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:2563,6264,2026-09-01T12:23:34Z
+36031,Essex,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:2563,6264,2026-09-01T12:23:34Z
+36033,Franklin,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1296,7175,2026-09-01T12:23:34Z
+36033,Franklin,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1296,7175,2026-09-01T12:23:34Z
+36033,Franklin,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1296,7175,2026-09-01T12:23:34Z
+36037,Genesee,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1298,16459,2026-09-01T12:23:34Z
+36037,Genesee,covid-19,SARS-CoV-2,2026-08-22,2.04,,,low,stable,ID:1300,4191,2026-09-01T12:23:34Z
+36037,Genesee,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1298,16459,2026-09-01T12:23:34Z
+36037,Genesee,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1298,16459,2026-09-01T12:23:34Z
+36039,Greene,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1301,4896,2026-09-01T12:23:34Z
+36043,Herkimer,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1304,13924,2026-09-01T12:23:34Z
+36043,Herkimer,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1304,13924,2026-09-01T12:23:34Z
+36043,Herkimer,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1304,13924,2026-09-01T12:23:34Z
+36045,Jefferson,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1307,4077,2026-09-01T12:23:34Z
+36045,Jefferson,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1307,4077,2026-09-01T12:23:34Z
+36045,Jefferson,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1307,4077,2026-09-01T12:23:34Z
+36051,Livingston,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1314,4730,2026-09-01T12:23:34Z
+36051,Livingston,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1315,15688,2026-09-01T12:23:34Z
+36051,Livingston,covid-19,SARS-CoV-2,2026-08-22,2.83,,,low,stable,ID:1316,5361,2026-09-01T12:23:34Z
+36051,Livingston,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1317,3288,2026-09-01T12:23:34Z
+36051,Livingston,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1315,15688,2026-09-01T12:23:34Z
+36051,Livingston,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1315,15688,2026-09-01T12:23:34Z
+36053,Madison,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1318,4843,2026-09-01T12:23:34Z
+36055,Monroe,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1323,487322,2026-09-01T12:23:34Z
+36055,Monroe,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1324,155096,2026-09-01T12:23:34Z
+36055,Monroe,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1325,43074,2026-09-01T12:23:34Z
+36055,Monroe,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1326,6400,2026-09-01T12:23:34Z
+36055,Monroe,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1323,487322,2026-09-01T12:23:34Z
+36055,Monroe,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1324,155096,2026-09-01T12:23:34Z
+36055,Monroe,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1323,487322,2026-09-01T12:23:34Z
+36055,Monroe,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1324,155096,2026-09-01T12:23:34Z
+36057,Montgomery,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1327,19679,2026-09-01T12:23:34Z
+36057,Montgomery,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1327,19679,2026-09-01T12:23:34Z
+36057,Montgomery,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1327,19679,2026-09-01T12:23:34Z
+36059,Nassau,covid-19,SARS-CoV-2,2026-08-15,1.16,,,low,stable,ID:1329,611349,2026-09-01T12:23:34Z
+36059,Nassau,covid-19,SARS-CoV-2,2026-08-15,1.17,,,low,stable,ID:1330,524955,2026-09-01T12:23:34Z
+36059,Nassau,covid-19,SARS-CoV-2,2026-08-15,1.68,,,low,stable,ID:1331,27494,2026-09-01T12:23:34Z
+36059,Nassau,covid-19,SARS-CoV-2,2026-08-15,3.57,,,low,stable,ID:1335,20616,2026-09-01T12:23:34Z
+36063,Niagara,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1339,48196,2026-09-01T12:23:34Z
+36063,Niagara,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1341,31032,2026-09-01T12:23:34Z
+36063,Niagara,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1343,5632,2026-09-01T12:23:34Z
+36063,Niagara,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1339,48196,2026-09-01T12:23:34Z
+36063,Niagara,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1339,48196,2026-09-01T12:23:34Z
+36065,Oneida,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1350,3990,2026-09-01T12:23:34Z
+36065,Oneida,covid-19,SARS-CoV-2,2026-08-22,14.44,,,high,stable,ID:1351,3210,2026-09-01T12:23:34Z
+36065,Oneida,covid-19,SARS-CoV-2,2026-08-22,2.74,,,low,stable,ID:1353,6076,2026-09-01T12:23:34Z
+36065,Oneida,influenza,Influenza A virus,2026-08-15,1.0,,,low,stable,ID:2566,55215,2026-09-01T12:23:34Z
+36065,Oneida,rsv,RSV,2026-08-15,1.0,,,low,stable,ID:2566,55215,2026-09-01T12:23:34Z
+36067,Onondaga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1354,30613,2026-09-01T12:23:34Z
+36067,Onondaga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1355,16168,2026-09-01T12:23:34Z
+36067,Onondaga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1356,39352,2026-09-01T12:23:34Z
+36067,Onondaga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1357,242377,2026-09-01T12:23:34Z
+36067,Onondaga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1359,50727,2026-09-01T12:23:34Z
+36067,Onondaga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1361,25965,2026-09-01T12:23:34Z
+36067,Onondaga,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1357,242377,2026-09-01T12:23:34Z
+36067,Onondaga,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1359,50727,2026-09-01T12:23:34Z
+36067,Onondaga,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1357,242377,2026-09-01T12:23:34Z
+36067,Onondaga,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1359,50727,2026-09-01T12:23:34Z
+36069,Ontario,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1362,17936,2026-09-01T12:23:34Z
+36069,Ontario,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1363,16507,2026-09-01T12:23:34Z
+36069,Ontario,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1362,17936,2026-09-01T12:23:34Z
+36069,Ontario,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1362,17936,2026-09-01T12:23:34Z
+36071,Orange,covid-19,SARS-CoV-2,2026-08-22,9.47,,,moderate,stable,ID:1364,6369,2026-09-01T12:23:34Z
+36071,Orange,covid-19,SARS-CoV-2,2026-08-22,3.79,,,low,stable,ID:1365,27434,2026-09-01T12:23:34Z
+36071,Orange,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1366,36227,2026-09-01T12:23:34Z
+36071,Orange,covid-19,SARS-CoV-2,2026-08-22,16.17,,,high,stable,ID:1367,42921,2026-09-01T12:23:34Z
+36071,Orange,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1368,8568,2026-09-01T12:23:34Z
+36071,Orange,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1369,6563,2026-09-01T12:23:34Z
+36071,Orange,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1371,6729,2026-09-01T12:23:34Z
+36071,Orange,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1366,36227,2026-09-01T12:23:34Z
+36071,Orange,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1367,42921,2026-09-01T12:23:34Z
+36071,Orange,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1366,36227,2026-09-01T12:23:34Z
+36071,Orange,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1367,42921,2026-09-01T12:23:34Z
+36073,Orleans,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1375,6191,2026-09-01T12:23:34Z
+36075,Oswego,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1377,12117,2026-09-01T12:23:34Z
+36075,Oswego,covid-19,SARS-CoV-2,2026-08-22,0.37,,,low,stable,ID:1378,30000,2026-09-01T12:23:34Z
+36075,Oswego,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1380,8849,2026-09-01T12:23:34Z
+36075,Oswego,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1378,30000,2026-09-01T12:23:34Z
+36075,Oswego,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1378,30000,2026-09-01T12:23:34Z
+36077,Otsego,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1381,19383,2026-09-01T12:23:34Z
+36077,Otsego,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1381,19383,2026-09-01T12:23:34Z
+36077,Otsego,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1381,19383,2026-09-01T12:23:34Z
+36079,Putnam,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1382,4480,2026-09-01T12:23:34Z
+36079,Putnam,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1382,4480,2026-09-01T12:23:34Z
+36079,Putnam,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1382,4480,2026-09-01T12:23:34Z
+36083,Rensselaer,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1389,79699,2026-09-01T12:23:34Z
+36083,Rensselaer,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1389,79699,2026-09-01T12:23:34Z
+36083,Rensselaer,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1389,79699,2026-09-01T12:23:34Z
+36087,Rockland,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1393,36527,2026-09-01T12:23:34Z
+36087,Rockland,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1395,207430,2026-09-01T12:23:34Z
+36087,Rockland,covid-19,SARS-CoV-2,2026-08-22,4.28,,,low,stable,ID:1396,12676,2026-09-01T12:23:34Z
+36087,Rockland,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1398,4115,2026-09-01T12:23:34Z
+36087,Rockland,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1393,36527,2026-09-01T12:23:34Z
+36087,Rockland,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1395,207430,2026-09-01T12:23:34Z
+36087,Rockland,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1393,36527,2026-09-01T12:23:34Z
+36087,Rockland,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1395,207430,2026-09-01T12:23:34Z
+36091,Saratoga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1404,152482,2026-09-01T12:23:34Z
+36091,Saratoga,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1404,152482,2026-09-01T12:23:34Z
+36091,Saratoga,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1404,152482,2026-09-01T12:23:34Z
+36093,Schenectady,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1405,78444,2026-09-01T12:23:34Z
+36093,Schenectady,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1405,78444,2026-09-01T12:23:34Z
+36093,Schenectady,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1405,78444,2026-09-01T12:23:34Z
+36095,Schoharie,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1406,5326,2026-09-01T12:23:34Z
+36095,Schoharie,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1406,5326,2026-09-01T12:23:34Z
+36095,Schoharie,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1406,5326,2026-09-01T12:23:34Z
+36099,Seneca,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1409,6160,2026-09-01T12:23:34Z
+36099,Seneca,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1409,6160,2026-09-01T12:23:34Z
+36099,Seneca,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1409,6160,2026-09-01T12:23:34Z
+36101,Steuben,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1410,5941,2026-09-01T12:23:34Z
+36101,Steuben,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1412,5162,2026-09-01T12:23:34Z
+36101,Steuben,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1410,5941,2026-09-01T12:23:34Z
+36101,Steuben,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1410,5941,2026-09-01T12:23:34Z
+36103,Suffolk,covid-19,SARS-CoV-2,2026-08-15,1.0,,,low,stable,ID:1415,7741,2026-09-01T12:23:34Z
+36105,Sullivan,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1424,6639,2026-09-01T12:23:34Z
+36105,Sullivan,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1425,4925,2026-09-01T12:23:34Z
+36105,Sullivan,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1424,6639,2026-09-01T12:23:34Z
+36105,Sullivan,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1424,6639,2026-09-01T12:23:34Z
+36107,Tioga,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1429,3750,2026-09-01T12:23:34Z
+36107,Tioga,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1429,3750,2026-09-01T12:23:34Z
+36107,Tioga,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1429,3750,2026-09-01T12:23:34Z
+36109,Tompkins,covid-19,SARS-CoV-2,2026-08-22,1.42,,,low,stable,ID:1431,90000,2026-09-01T12:23:34Z
+36109,Tompkins,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1431,90000,2026-09-01T12:23:34Z
+36109,Tompkins,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1431,90000,2026-09-01T12:23:34Z
+36111,Ulster,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1432,26599,2026-09-01T12:23:34Z
+36111,Ulster,covid-19,SARS-CoV-2,2026-08-22,4.13,,,low,stable,ID:1433,10577,2026-09-01T12:23:34Z
+36111,Ulster,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1432,26599,2026-09-01T12:23:34Z
+36111,Ulster,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1432,26599,2026-09-01T12:23:34Z
+36117,Wayne,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1439,8931,2026-09-01T12:23:34Z
+36117,Wayne,covid-19,SARS-CoV-2,2026-08-22,7.08,,,watch,stable,ID:1440,5145,2026-09-01T12:23:34Z
+36117,Wayne,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1439,8931,2026-09-01T12:23:34Z
+36117,Wayne,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1439,8931,2026-09-01T12:23:34Z
+36119,Westchester,covid-19,SARS-CoV-2,2026-08-22,9.29,,,moderate,stable,ID:1441,78683,2026-09-01T12:23:34Z
+36119,Westchester,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1442,94095,2026-09-01T12:23:34Z
+36119,Westchester,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1443,44876,2026-09-01T12:23:34Z
+36119,Westchester,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1444,31046,2026-09-01T12:23:34Z
+36119,Westchester,covid-19,SARS-CoV-2,2026-08-22,4.94,,,watch,stable,ID:1445,523765,2026-09-01T12:23:34Z
+36119,Westchester,covid-19,SARS-CoV-2,2026-08-22,3.4,,,low,stable,ID:1446,26651,2026-09-01T12:23:34Z
+36119,Westchester,covid-19,SARS-CoV-2,2026-08-22,24.08,,,high,stable,ID:1447,40301,2026-09-01T12:23:34Z
+36119,Westchester,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1441,78683,2026-09-01T12:23:34Z
+36119,Westchester,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1442,94095,2026-09-01T12:23:34Z
+36119,Westchester,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1445,523765,2026-09-01T12:23:34Z
+36119,Westchester,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1441,78683,2026-09-01T12:23:34Z
+36119,Westchester,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1442,94095,2026-09-01T12:23:34Z
+36119,Westchester,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1445,523765,2026-09-01T12:23:34Z
+36121,Wyoming,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1448,3448,2026-09-01T12:23:34Z
+36121,Wyoming,influenza,Influenza A virus,2026-08-22,2.95,,,low,stable,ID:1448,3448,2026-09-01T12:23:34Z
+36121,Wyoming,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1448,3448,2026-09-01T12:23:34Z
+36123,Yates,covid-19,SARS-CoV-2,2026-08-22,1.0,,,low,stable,ID:1449,5339,2026-09-01T12:23:34Z
+36123,Yates,influenza,Influenza A virus,2026-08-22,1.0,,,low,stable,ID:1449,5339,2026-09-01T12:23:34Z
+36123,Yates,rsv,RSV,2026-08-22,1.0,,,low,stable,ID:1449,5339,2026-09-01T12:23:34Z
