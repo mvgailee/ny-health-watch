@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-01T12:23:35Z",
-  "sitewideNote": "Data updated September 01, 2026",
+  "lastUpdated": "2026-09-02T11:58:59Z",
+  "sitewideNote": "Data updated September 02, 2026",
   "sources": {
     "wastewater": {
-      "lastFetched": "2026-09-01T12:23:35Z",
+      "lastFetched": "2026-09-02T11:58:59Z",
       "recordsAdded": 424,
       "updateFrequency": "daily"
     },
@@ -32,7 +32,7 @@
       ]
     },
     "compute_levels": {
-      "lastRun": "2026-09-01T12:23:35Z",
+      "lastRun": "2026-09-02T11:58:59Z",
       "month": 9
     }
   },
