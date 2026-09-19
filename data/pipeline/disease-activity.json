@@ -9,29 +9,29 @@
   "covid-19": {
     "level": "low",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 12th percentile (population-weighted). 0 of 50 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-09-18",
-    "wastewaterPercentile": 12.2,
-    "wastewaterCounties": 50,
-    "lastUpdated": "2026-09-18"
+    "note": "Statewide wastewater signal at 11th percentile (population-weighted). 0 of 55 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-09-19",
+    "wastewaterPercentile": 11.0,
+    "wastewaterCounties": 55,
+    "lastUpdated": "2026-09-19"
   },
   "influenza": {
     "level": "low",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 2th percentile (population-weighted). 1 of 44 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-09-18",
-    "wastewaterPercentile": 2.3,
-    "wastewaterCounties": 44,
-    "lastUpdated": "2026-09-18"
+    "note": "Statewide wastewater signal at 2th percentile (population-weighted). 1 of 49 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-09-19",
+    "wastewaterPercentile": 1.6,
+    "wastewaterCounties": 49,
+    "lastUpdated": "2026-09-19"
   },
   "rsv": {
     "level": "low",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 1th percentile (population-weighted). 0 of 44 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-09-18",
+    "note": "Statewide wastewater signal at 1th percentile (population-weighted). 0 of 49 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-09-19",
     "wastewaterPercentile": 1.0,
-    "wastewaterCounties": 44,
-    "lastUpdated": "2026-09-18"
+    "wastewaterCounties": 49,
+    "lastUpdated": "2026-09-19"
   },
   "norovirus": {
     "level": "low",
