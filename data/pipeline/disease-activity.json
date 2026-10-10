@@ -7,31 +7,31 @@
     "tierC_source": "Manual \u2014 operator updated on NYSDOH outbreak declaration"
   },
   "covid-19": {
-    "level": "high",
+    "level": "low",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 10th percentile (population-weighted). 0 of 52 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-09",
-    "wastewaterPercentile": 9.8,
+    "note": "Statewide wastewater signal at 12th percentile (population-weighted). 1 of 52 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-10",
+    "wastewaterPercentile": 12.4,
     "wastewaterCounties": 52,
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   "influenza": {
     "level": "low",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 1th percentile (population-weighted). 0 of 45 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-09",
-    "wastewaterPercentile": 1.4,
+    "note": "Statewide wastewater signal at 2th percentile (population-weighted). 0 of 45 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-10",
+    "wastewaterPercentile": 1.7,
     "wastewaterCounties": 45,
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   "rsv": {
     "level": "low",
     "trend": "stable",
     "note": "Statewide wastewater signal at 1th percentile (population-weighted). 0 of 45 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-09",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-10",
     "wastewaterPercentile": 1.4,
     "wastewaterCounties": 45,
-    "lastUpdated": "2026-10-09"
+    "lastUpdated": "2026-10-10"
   },
   "norovirus": {
     "level": "low",
