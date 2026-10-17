@@ -9,29 +9,29 @@
   "covid-19": {
     "level": "low",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 12th percentile (population-weighted). 1 of 50 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-16",
-    "wastewaterPercentile": 12.0,
-    "wastewaterCounties": 50,
-    "lastUpdated": "2026-10-16"
+    "note": "Statewide wastewater signal at 24th percentile (population-weighted). 3 of 55 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-17",
+    "wastewaterPercentile": 24.0,
+    "wastewaterCounties": 55,
+    "lastUpdated": "2026-10-17"
   },
   "influenza": {
-    "level": "low",
+    "level": "moderate",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 1th percentile (population-weighted). 0 of 43 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-16",
-    "wastewaterPercentile": 1.4,
-    "wastewaterCounties": 43,
-    "lastUpdated": "2026-10-16"
+    "note": "Statewide wastewater signal at 5th percentile (population-weighted). 0 of 48 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-17",
+    "wastewaterPercentile": 5.3,
+    "wastewaterCounties": 48,
+    "lastUpdated": "2026-10-17"
   },
   "rsv": {
     "level": "low",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 1th percentile (population-weighted). 0 of 43 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-16",
-    "wastewaterPercentile": 1.4,
-    "wastewaterCounties": 43,
-    "lastUpdated": "2026-10-16"
+    "note": "Statewide wastewater signal at 1th percentile (population-weighted). 0 of 48 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-17",
+    "wastewaterPercentile": 1.2,
+    "wastewaterCounties": 48,
+    "lastUpdated": "2026-10-17"
   },
   "norovirus": {
     "level": "low",
