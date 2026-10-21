@@ -10,28 +10,28 @@
     "level": "low",
     "trend": "stable",
     "note": "Statewide wastewater signal at 15th percentile (population-weighted). 2 of 54 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-20",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-21",
     "wastewaterPercentile": 14.9,
     "wastewaterCounties": 54,
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   "influenza": {
     "level": "moderate",
     "trend": "stable",
     "note": "Statewide wastewater signal at 5th percentile (population-weighted). 0 of 47 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-20",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-21",
     "wastewaterPercentile": 5.2,
     "wastewaterCounties": 47,
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   "rsv": {
     "level": "low",
     "trend": "stable",
     "note": "Statewide wastewater signal at 1th percentile (population-weighted). 0 of 47 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-20",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-21",
     "wastewaterPercentile": 1.1,
     "wastewaterCounties": 47,
-    "lastUpdated": "2026-10-20"
+    "lastUpdated": "2026-10-21"
   },
   "norovirus": {
     "level": "low",
