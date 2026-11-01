@@ -9,29 +9,29 @@
   "covid-19": {
     "level": "low",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 15th percentile (population-weighted). 1 of 55 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-31",
-    "wastewaterPercentile": 14.6,
-    "wastewaterCounties": 55,
-    "lastUpdated": "2026-10-31"
+    "note": "Statewide wastewater signal at 14th percentile (population-weighted). 0 of 49 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-01",
+    "wastewaterPercentile": 14.3,
+    "wastewaterCounties": 49,
+    "lastUpdated": "2026-11-01"
   },
   "influenza": {
     "level": "low",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 2th percentile (population-weighted). 1 of 49 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-31",
-    "wastewaterPercentile": 2.0,
-    "wastewaterCounties": 49,
-    "lastUpdated": "2026-10-31"
+    "note": "Statewide wastewater signal at 2th percentile (population-weighted). 1 of 43 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-01",
+    "wastewaterPercentile": 2.5,
+    "wastewaterCounties": 43,
+    "lastUpdated": "2026-11-01"
   },
   "rsv": {
-    "level": "watch",
+    "level": "moderate",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 4th percentile (population-weighted). 0 of 49 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-10-31",
-    "wastewaterPercentile": 3.9,
-    "wastewaterCounties": 49,
-    "lastUpdated": "2026-10-31"
+    "note": "Statewide wastewater signal at 8th percentile (population-weighted). 0 of 43 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-01",
+    "wastewaterPercentile": 7.6,
+    "wastewaterCounties": 43,
+    "lastUpdated": "2026-11-01"
   },
   "norovirus": {
     "level": "low",
@@ -54,56 +54,56 @@
   "lyme-disease": {
     "level": "low",
     "trend": "rising",
-    "note": "21,632 cases in 2024 \u2014 near the 5-year baseline of ~16,445.",
+    "note": "Out of season. Tick season (April\u2013October). activity expected.",
     "dataSourceLabel": "NYSDOH Annual Communicable Disease Report 2024 + 5-yr baseline",
     "annualCases2024": 21632,
     "baseline5yr": 16445,
-    "inSeason": true
+    "inSeason": false
   },
   "anaplasmosis": {
     "level": "low",
     "trend": "rising",
-    "note": "2,025 cases in 2024 \u2014 near the 5-year baseline of ~1,967.",
+    "note": "Out of season. Tick season (April\u2013October). activity expected.",
     "dataSourceLabel": "NYSDOH Annual Communicable Disease Report 2024 + 5-yr baseline",
     "annualCases2024": 2025,
     "baseline5yr": 1967,
-    "inSeason": true
+    "inSeason": false
   },
   "babesiosis": {
     "level": "low",
     "trend": "stable",
-    "note": "748 cases in 2024 \u2014 near the 5-year baseline of ~1,095.",
+    "note": "Out of season. Tick season (April\u2013October). activity expected.",
     "dataSourceLabel": "NYSDOH Annual Communicable Disease Report 2024 + 5-yr baseline",
     "annualCases2024": 748,
     "baseline5yr": 1095,
-    "inSeason": true
+    "inSeason": false
   },
   "ehrlichiosis": {
     "level": "low",
     "trend": "stable",
-    "note": "133 cases in 2024 \u2014 near the 5-year baseline of ~174.",
+    "note": "Out of season. Tick season (April\u2013October). activity expected.",
     "dataSourceLabel": "NYSDOH Annual Communicable Disease Report 2024 + 5-yr baseline",
     "annualCases2024": 133,
     "baseline5yr": 174,
-    "inSeason": true
+    "inSeason": false
   },
   "rocky-mountain-spotted-fever": {
     "level": "low",
     "trend": "stable",
-    "note": "12 cases in 2024 (baseline: ~34). Low absolute count.",
+    "note": "Out of season. Tick season (April\u2013October). activity expected.",
     "dataSourceLabel": "NYSDOH Annual Communicable Disease Report 2024 + 5-yr baseline",
     "annualCases2024": 12,
     "baseline5yr": 34,
-    "inSeason": true
+    "inSeason": false
   },
   "west-nile-fever": {
     "level": "low",
     "trend": "stable",
-    "note": "32 cases in 2024 \u2014 near the 5-year baseline of ~27.",
+    "note": "Out of season. Mosquito season (June\u2013October). activity expected.",
     "dataSourceLabel": "NYSDOH Annual Communicable Disease Report 2024 + 5-yr baseline",
     "annualCases2024": 32,
     "baseline5yr": 27,
-    "inSeason": true
+    "inSeason": false
   },
   "malaria": {
     "level": "low",
@@ -207,20 +207,20 @@
   "cyclosporiasis": {
     "level": "low",
     "trend": "stable",
-    "note": "691 cases in 2024 \u2014 near the 5-year baseline of ~1,120.",
+    "note": "Out of season. Summer season (May\u2013October). activity expected.",
     "dataSourceLabel": "NYSDOH Annual Communicable Disease Report 2024 + 5-yr baseline",
     "annualCases2024": 691,
     "baseline5yr": 1120,
-    "inSeason": true
+    "inSeason": false
   },
   "vibriosis": {
     "level": "low",
     "trend": "stable",
-    "note": "408 cases in 2024 \u2014 near the 5-year baseline of ~761.",
+    "note": "Out of season. Summer season (May\u2013October). activity expected.",
     "dataSourceLabel": "NYSDOH Annual Communicable Disease Report 2024 + 5-yr baseline",
     "annualCases2024": 408,
     "baseline5yr": 761,
-    "inSeason": true
+    "inSeason": false
   },
   "hemolytic-uremic-syndrome": {
     "level": "low",
@@ -339,11 +339,11 @@
   "legionellosis": {
     "level": "low",
     "trend": "stable",
-    "note": "799 cases in 2024 \u2014 near the 5-year baseline of ~2,284.",
+    "note": "Out of season. Summer season (May\u2013October). activity expected.",
     "dataSourceLabel": "NYSDOH Annual Communicable Disease Report 2024 + 5-yr baseline",
     "annualCases2024": 799,
     "baseline5yr": 2284,
-    "inSeason": true
+    "inSeason": false
   },
   "pertussis": {
     "level": "moderate",
@@ -393,11 +393,11 @@
   "strep-pneumo-invasive": {
     "level": "low",
     "trend": "stable",
-    "note": "Out of season. Winter respiratory season (November\u2013April). activity expected.",
+    "note": "1,783 cases in 2024 \u2014 near the 5-year baseline of ~3,439.",
     "dataSourceLabel": "NYSDOH Annual Communicable Disease Report 2024 + 5-yr baseline",
     "annualCases2024": 1783,
     "baseline5yr": 3439,
-    "inSeason": false
+    "inSeason": true
   },
   "meningococcal": {
     "level": "low",
@@ -420,11 +420,11 @@
   "meningitis-aseptic": {
     "level": "low",
     "trend": "stable",
-    "note": "179 cases in 2024 \u2014 near the 5-year baseline of ~520.",
+    "note": "Out of season. Summer season (May\u2013October). activity expected.",
     "dataSourceLabel": "NYSDOH Annual Communicable Disease Report 2024 + 5-yr baseline",
     "annualCases2024": 179,
     "baseline5yr": 520,
-    "inSeason": true
+    "inSeason": false
   },
   "meningitis-bacterial": {
     "level": "low",
