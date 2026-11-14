@@ -9,29 +9,29 @@
   "covid-19": {
     "level": "low",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 11th percentile (population-weighted). 0 of 50 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-13",
-    "wastewaterPercentile": 11.4,
+    "note": "Statewide wastewater signal at 15th percentile (population-weighted). 1 of 50 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-14",
+    "wastewaterPercentile": 15.1,
     "wastewaterCounties": 50,
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
   },
   "influenza": {
-    "level": "low",
+    "level": "moderate",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 3th percentile (population-weighted). 2 of 45 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-13",
-    "wastewaterPercentile": 2.8,
+    "note": "Statewide wastewater signal at 5th percentile (population-weighted). 2 of 45 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-14",
+    "wastewaterPercentile": 4.8,
     "wastewaterCounties": 45,
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
   },
   "rsv": {
     "level": "moderate",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 6th percentile (population-weighted). 0 of 45 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-13",
-    "wastewaterPercentile": 6.4,
+    "note": "Statewide wastewater signal at 5th percentile (population-weighted). 0 of 45 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-14",
+    "wastewaterPercentile": 5.1,
     "wastewaterCounties": 45,
-    "lastUpdated": "2026-11-13"
+    "lastUpdated": "2026-11-14"
   },
   "norovirus": {
     "level": "low",
