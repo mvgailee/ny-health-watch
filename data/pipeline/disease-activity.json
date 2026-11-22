@@ -7,31 +7,31 @@
     "tierC_source": "Manual \u2014 operator updated on NYSDOH outbreak declaration"
   },
   "covid-19": {
-    "level": "low",
+    "level": "moderate",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 11th percentile (population-weighted). 1 of 50 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-21",
-    "wastewaterPercentile": 10.7,
-    "wastewaterCounties": 50,
-    "lastUpdated": "2026-11-21"
+    "note": "Statewide wastewater signal at 6th percentile (population-weighted). 0 of 46 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-22",
+    "wastewaterPercentile": 6.0,
+    "wastewaterCounties": 46,
+    "lastUpdated": "2026-11-22"
   },
   "influenza": {
     "level": "moderate",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 5th percentile (population-weighted). 1 of 45 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-21",
-    "wastewaterPercentile": 4.6,
-    "wastewaterCounties": 45,
-    "lastUpdated": "2026-11-21"
+    "note": "Statewide wastewater signal at 5th percentile (population-weighted). 0 of 34 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-22",
+    "wastewaterPercentile": 5.4,
+    "wastewaterCounties": 34,
+    "lastUpdated": "2026-11-22"
   },
   "rsv": {
     "level": "low",
     "trend": "stable",
-    "note": "Statewide wastewater signal at 1th percentile (population-weighted). 0 of 45 monitored counties reporting above median.",
-    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-21",
+    "note": "Statewide wastewater signal at 1th percentile (population-weighted). 0 of 34 monitored counties reporting above median.",
+    "dataSourceLabel": "CDC NWSS wastewater surveillance, updated 2026-11-22",
     "wastewaterPercentile": 1.2,
-    "wastewaterCounties": 45,
-    "lastUpdated": "2026-11-21"
+    "wastewaterCounties": 34,
+    "lastUpdated": "2026-11-22"
   },
   "norovirus": {
     "level": "low",
